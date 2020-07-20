@@ -1,13 +1,9 @@
 print("Juan Gabriel Lopez")
 print("Axel David Rodriguez Prado")
-
-
-
-
-
-
-print("Paola Nahomi Hinojosa Lozano")
-
-
-
+print("Daniela Aracely Rodriguez Renteria")
+print("Angie Sarahi Camarillo Ramirez")
+print("Johan Alexis Balleza Rangel")
+print("Aranza Carolina Mejorado Casas")
+print("Daira Yllen Torres Gonzalez")
 print("Claudia Morón Fernández")
+print("Linus Torvalds")
