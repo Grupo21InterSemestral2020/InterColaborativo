@@ -27,4 +27,25 @@ class Persona8:
     @edad.setter
     def municipio(self,valor):
         self.__municipio= valor
+    
+    def ImprimirInfo(self):
+        print (f'{self.__nombre}{self.__edad}{self.__municipio}')
+
+    def ObtenerEtapa (self):
+        if self.__edad >= 0 and self.__edad <=10:
+            print ("NIÑO")
+        elif self.__edad >=11 and self.__edad <=17:
+            print("ADOLESCENTE")
+        elif self.__edad >=18 and self.__edad <=40:
+            print ("ADULTO")
+        elif self.__edad >40:
+            print("ADULTO MAYOR")
+        else:
+            print("ERROR")
+
+            
+
+
+
+
 
