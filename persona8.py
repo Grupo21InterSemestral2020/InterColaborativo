@@ -12,5 +12,19 @@ class Persona8:
     def nombre(self, valor):
         self._nombre= valor
 
-    
+    @property
+    def edad(self):
+        return self._edad
+
+    @edad.setter
+    def edad(self, valor):
+        self._edad= valor
+
+    @property
+    def municipio(self):
+        return self._edad
+
+    @edad.setter
+    def municipio(self,valor):
+        self._municipio= valor
 
