@@ -16,15 +16,15 @@ print("Gabriel Elizondo")
 print("David Alfredo Gomez Tamez")
 print("Linus Torvalds")
 
+#funciones
 
+    
 
-#FUNCIONES
-def funcion1():
-    print("Signo Zodiacal: Virgo")
-    print("Color favorito: Verde")
-    print("Equipo: Tigres")
-    print("Grupo Musical: MS")
-
+def funcion2():
+    print("Signo zodiacal: Leo")
+    print("Color favorito: Negro")
+    print("Equipo: Rayados")
+    print("Grupo Musical: ")
 
 def funcion3():
     print("Signo Zodiacal: virgo")
@@ -39,3 +39,27 @@ def funcion7():
     print("Color favorito: Negro")
     print("Equipo: Ninguno")
     print("Grupo Musical: Los Aldeanos")
+
+def funcion11():
+    print("Signo Zodiacal: Cancer")
+    print("Color favorito: Rosa")
+    print("Equipo: Monterrey")
+    print("Grupo Musical: MS")
+    
+def funcion12():
+    print("Signo Zodiacal: Geminis")
+    print("Color Favorito: Celeste")
+    print("Equipo: Rayados")
+    print("Grupo Musical: No tengo favorito jaja")
+
+def funcion13():
+    print("Signo zodiacal: Escorpion")
+    print("Color favorito: Azul")
+    print("Equipo: Rayados")
+    print("Grupo Musical: MS")
+
+def funcion4():
+    print("Signo Zodiacal: Escorpio")
+    print("Color Favorito: Naranja")
+    print("Equipo: Tigres")
+    print("Grupo Musical: Paramore")
