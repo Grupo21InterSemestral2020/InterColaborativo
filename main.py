@@ -39,6 +39,7 @@ def funcion3():
     print("Grupo musical: queen")
 
 def funcion4():
+    print("Daniela Aracely Rodriguez Renteria")
     print("Signo Zodiacal: Escorpio")
     print("Color Favorito: Naranja")
     print("Equipo: Tigres")
