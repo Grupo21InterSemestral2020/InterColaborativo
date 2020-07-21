@@ -16,9 +16,6 @@ print("Gabriel Elizondo")
 print("David Alfredo Gomez Tamez")
 print("Linus Torvalds")
 
-print("Gabriel Jose Elizondo Tijerina")
-print("Linus Torvalds")
-
 #FUNCIONES
 def funcion1():
     print("Juan Gabriel lopez")
@@ -91,6 +88,7 @@ def  funcion10():
     print("Grupo Musical: BMTH")
 
 def funcion11():
+    print("Blanca Nallely Macias Vazquez")
     print("Signo Zodiacal: Cancer")
     print("Color favorito: Rosa")
     print("Equipo: Monterrey")
@@ -104,6 +102,7 @@ def funcion12():
     print("Grupo Musical: No tengo favorito jaja")
 
 def funcion13():
+    print("Juan Angel Prieto Mozqueda")
     print("Signo zodiacal: Escorpion")
     print("Color favorito: Azul")
     print("Equipo: Rayados")
@@ -116,10 +115,14 @@ def funcion14():
     print("Grupo musical: Pesado")
 
 def funcion15():
+    print("Gabriel Jose Elizondo Tijerina")
     print("Signo zodiacal: Cancer")
     print("Color favorito: Rojo")
     print("Equipo: Tigres")
     print("Grupo musical: Intocable")
 
+def main():
+    # crear un objeto de su clase y ejecutar los metodos
+    
 
     
