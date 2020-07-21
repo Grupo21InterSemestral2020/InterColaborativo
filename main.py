@@ -46,6 +46,7 @@ def funcion4():
     print("Grupo Musical: Paramore")
 
 def funcion6():
+    print("Johan Alexis Balleza Rangel")
     print("Signo Zodiacal: Virgo")
     print("Color Favorito: Morado")
     print("Equipo: Ninguno")
