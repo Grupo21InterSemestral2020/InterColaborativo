@@ -99,14 +99,6 @@ def funcion13():
     print("Equipo: Rayados")
     print("Grupo Musical: MS")
 
-<<<<<<< HEAD
-=======
-def funcion14():
-    print("Signo Zodiacal: Cancer")
-    print("Color favorito: Verde")
-    print("Equipo: Rayados")
-    print("Grupo musical: Pesado")
->>>>>>> e35d4af9c4e93c54e7ac6cd73adce7a5b57a69ef
 
 def funcion15():
     print("Signo zodiacal: Cancer")
