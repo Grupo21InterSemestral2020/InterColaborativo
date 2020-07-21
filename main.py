@@ -1,6 +1,2 @@
 print("Juan Gabriel Lopez")
-print("Axel David Rodriguez Prado")
-print("Daniela Aracely Rodriguez Renteria")
-print("Angie Sarahi Camarillo Ramirez")
-print("Linus Torvalds")
-print("Daira Yllen Torres Gonzalez")
+print("Lesly Abigail Landeros Sanchez")
