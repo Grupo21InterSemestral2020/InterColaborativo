@@ -10,6 +10,10 @@ print("Daira Yllen Torres Gonzalez")
 print("Claudia Morón Fernández")
 print("Blanca Nallely Macias Vazquez")
 print("Paola Nahomi Hinojosa Lozano")
+print("Juan Angel Prieto Mozqueda")
+print("Andres Jared Vela Canizales")
+print("Gabriel Elizondo")
+print("David Alfredo Gomez Tamez")
 print("Linus Torvalds")
 
 def funcion8():
@@ -17,3 +21,4 @@ def funcion8():
     print("Color Favorito: Morad0")
     print("Equipo: Tigres")
     print("grupo Musical: no tengo")
+    
