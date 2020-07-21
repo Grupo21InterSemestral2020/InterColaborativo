@@ -16,3 +16,10 @@ print("Andres Jared Vela Canizales")
 print("Gabriel Jose Elizondo Tijerina")
 print("Linus Torvalds")
 
+
+
+def funcion10():
+    print("Signo Zodiacal: Libra")
+    print("Color favorito: Aqua")
+    print("Equipo: Niguno")
+    print("Grupo Musical: BMTH")
