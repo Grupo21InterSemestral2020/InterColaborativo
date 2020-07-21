@@ -21,18 +21,12 @@ print("Linus Torvalds")
 
 #FUNCIONES
 def funcion1():
+    print("Juan Gabriel lopez")
     print("Signo Zodiacal: Virgo")
     print("Color favorito: Verde")
     print("Equipo: Tigres")
     print("Grupo Musical: MS")
 
-
-def funcion4():
-    print("Signo Zodiacal: Escorpio")
-    print("Color Favorito: Naranja")
-    print("Equipo: Tigres")
-    print("Grupo Musical: Paramore")
-    
 def funcion2():
     print("Signo zodiacal: Leo")
     print("Color favorito: Negro")
@@ -58,6 +52,7 @@ def funcion6():
     print("Grupo Musical: 30 Seconds To Mars")   
 
 def funcion7():
+    print("Aranza Carolina Mejorado Casas")
     print("Signo Zodiacal: Piscis")
     print("Color favorito: Negro")
     print("Equipo: Ninguno")
