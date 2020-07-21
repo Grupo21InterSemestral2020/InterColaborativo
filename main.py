@@ -24,3 +24,23 @@ def funcion11():
     print("Grupo Musical: MS")
     
 
+
+
+def funcion5():
+    print("Signo Zodiacal: Escorpio")
+    print("Color favorito: negro")
+    print("Equipo: Rayados")
+    print("Grupo musical: no tengo:(")
+
+def funcion7():
+    print("Signo Zodiacal: Piscis")
+    print("Color favorito: Negro")
+    print("Equipo: Ninguno")
+    print("Grupo Musical: Los Aldeanos")
+
+def funcion11():
+    print("Signo Zodiacal: Cancer")
+    print("Color favorito: Rosa")
+    print("Equipo: Monterrey")
+    print("Grupo Musical: MS")
+    
