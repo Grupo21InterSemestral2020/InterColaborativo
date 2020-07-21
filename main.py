@@ -88,6 +88,7 @@ def  funcion10():
     print("Grupo Musical: BMTH")
 
 def funcion11():
+    print("Blanca Nallely Macias Vazquez")
     print("Signo Zodiacal: Cancer")
     print("Color favorito: Rosa")
     print("Equipo: Monterrey")
@@ -120,5 +121,8 @@ def funcion15():
     print("Equipo: Tigres")
     print("Grupo musical: Intocable")
 
+def main():
+    # crear un objeto de su clase y ejecutar los metodos
+    
 
     
