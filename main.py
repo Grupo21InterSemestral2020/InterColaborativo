@@ -16,3 +16,11 @@ print("Andres Jared Vela Canizales")
 print("Gabriel Jose Elizondo Tijerina")
 print("Linus Torvalds")
 
+
+#FUNCIONES
+def funcion1():
+    print("Signo Zodiacal: Virgo")
+    print("Color favorito: Verde")
+    print("Equipo: Tigres")
+    print("Grupo Musical: MS")
+
