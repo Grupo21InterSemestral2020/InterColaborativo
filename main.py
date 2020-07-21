@@ -93,6 +93,11 @@ def funcion13():
     print("Equipo: Rayados")
     print("Grupo Musical: MS")
 
+def funcion14():
+    print("Signo Zodiacal: Cancer")
+    print("Color favorito: Verde")
+    print("Equipo: Rayados")
+    print("Grupo musical: Pesado")
 
 def funcion15():
     print("Signo zodiacal: Cancer")
