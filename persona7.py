@@ -26,8 +26,12 @@ class persona7:
 
     @municipio.setter
     def municipio(self,valor):
-        self.__municipio = edad
+        self.__municipio = valor
 
     def imprimir(self):
-        print(f)
+        print(f"Nombre: {self.__Nombre},edad: {self.__edad},municipio: {self.__municipio}")
+
+
+persona7 = Persona7("Aldo","20","apodaca")
+persona7 = imprimir()
 
