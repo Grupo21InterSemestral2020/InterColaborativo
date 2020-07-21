@@ -49,7 +49,13 @@ def funcion4():
     print("Signo Zodiacal: Escorpio")
     print("Color Favorito: Naranja")
     print("Equipo: Tigres")
-    print("Grupo Musical: Paramore")   
+    print("Grupo Musical: Paramore")
+
+def funcion6():
+    print("Signo Zodiacal: Virgo")
+    print("Color Favorito: Morado")
+    print("Equipo: Ninguno")
+    print("Grupo Musical: 30 Seconds To Mars")   
 
 def funcion7():
     print("Signo Zodiacal: Piscis")
