@@ -32,6 +32,5 @@ class persona7:
         print(f"Nombre: {self.__Nombre},edad: {self.__edad},municipio: {self.__municipio}")
 
 
-persona7 = persona7("Aldo","20","apodaca")
-persona7 = imprimir()
+
 
