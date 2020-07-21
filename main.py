@@ -35,6 +35,7 @@ def funcion2():
     print("Grupo Musical: ")
 
 def funcion3():
+    print("Maria Fatima Rubi Gzz Gzz")
     print("Signo Zodiacal: virgo")
     print("Color favorito: verde")
     print("Equipo: Rayados")
@@ -68,12 +69,14 @@ def funcion7():
     print("Grupo Musical: Los Aldeanos")
 
 def funcion8():
+    print("Lesly Abigail Landeros Sanchez")
     print("Signo Zodiacal: Escorpion")
     print("Color Favorito: Morad0")
     print("Equipo: Tigres")
     print("grupo Musical: no tengo")
 
 def funcion9():
+    print("Daira Yllen Torres Gonzalez")
     print("Signo Zodiacal: Capricornio")
     print("Color Favorito: Blanco")
     print("Equipo: Ninguno")
