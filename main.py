@@ -12,8 +12,7 @@ print("Blanca Nallely Macias Vazquez")
 print("Paola Nahomi Hinojosa Lozano")
 print("Juan Angel Prieto Mozqueda")
 print("Andres Jared Vela Canizales")
-
-print("Gabriel Jose Elizondo Tijerina")
+print("David Alfredo Gomez Tamez")
 print("Linus Torvalds")
 
 
