@@ -23,70 +23,9 @@ def funcion1():
     print("Equipo: Tigres")
     print("Grupo Musical: MS")
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-def funcion15():
-    print("Signo zodiacal: Cancer")
-    print("Color favorito: Rojo")
-    print("Equipo: Tigres")
-    print("Grupo musical: Intocable")
-=======
 #funciones
 
 =======
