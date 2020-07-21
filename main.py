@@ -119,6 +119,3 @@ def funcion15():
     print("Color favorito: Rojo")
     print("Equipo: Tigres")
     print("Grupo musical: Intocable")
-
-
-    
