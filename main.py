@@ -17,12 +17,20 @@ print("David Alfredo Gomez Tamez")
 print("Linus Torvalds")
 
 
+
 #FUNCIONES
 def funcion1():
     print("Signo Zodiacal: Virgo")
     print("Color favorito: Verde")
     print("Equipo: Tigres")
     print("Grupo Musical: MS")
+
+
+def funcion5():
+    print("Signo Zodiacal: Escorpio")
+    print("Color favorito: negro")
+    print("Equipo: Rayados")
+    print("Grupo musical: no tengo:(")
 
 def funcion7():
     print("Signo Zodiacal: Piscis")
