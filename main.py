@@ -21,6 +21,7 @@ print("Linus Torvalds")
 
 #FUNCIONES
 def funcion1():
+    print("Juan Gabriel lopez")
     print("Signo Zodiacal: Virgo")
     print("Color favorito: Verde")
     print("Equipo: Tigres")
