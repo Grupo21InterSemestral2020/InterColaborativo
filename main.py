@@ -10,5 +10,6 @@ print("Daira Yllen Torres Gonzalez")
 print("Claudia Morón Fernández")
 print("Blanca Nallely Macias Vazquez")
 print("Paola Nahomi Hinojosa Lozano")
-print("Juan Angel Prieto Mozqueda")
+print ("Alan Damián Faz Rosales")
 print("Linus Torvalds")
+
