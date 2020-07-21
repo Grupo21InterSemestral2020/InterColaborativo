@@ -26,6 +26,14 @@ class Persona12:
 
     @municipio.setter
     def municipio(self,valor):
-        self.__municipio
+        self.__municipio = valor
+
+    def imprimirInfo(self):
+        print(f"Nombre: {self.__nombre}, Edad: {self.__edad}, Municipio: {self.__municipio}")
+
+persona1 = Persona12("Paola Nahomi Hinojosa Lozano","18","Gpe")
+
+persona1.imprimirInfo()
+
 
 
