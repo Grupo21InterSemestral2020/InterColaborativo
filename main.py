@@ -33,6 +33,7 @@ def funcion2():
     print("Grupo Musical: ")
 
 def funcion3():
+    print("Maria Fatima Rubi Gzz Gzz")
     print("Signo Zodiacal: virgo")
     print("Color favorito: verde")
     print("Equipo: Rayados")
