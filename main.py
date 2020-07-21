@@ -120,5 +120,8 @@ def funcion15():
     print("Equipo: Tigres")
     print("Grupo musical: Intocable")
 
+def main():
+    # crear un objeto de su clase y ejecutar los metodos
+    
 
     
