@@ -51,6 +51,12 @@ def funcion11():
     print("Equipo: Monterrey")
     print("Grupo Musical: MS")
     
+def funcion12():
+    print("Signo Zodiacal: Geminis")
+    print("Color Favorito: Celeste")
+    print("Equipo: Rayados")
+    print("Grupo Musical: No tengo favorito jaja")
+
 def funcion13():
     print("Signo zodiacal: Escorpion")
     print("Color favorito: Azul")
