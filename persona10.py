@@ -24,5 +24,5 @@ class Persona10:
         return self.__municipio   
 
     @setter.municipio
-    def municipio (self,municipio10)
-    self.__municipio = municipio10
+    def municipio (self,municipio10):
+        self.__municipio = municipio10
