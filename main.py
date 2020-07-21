@@ -63,6 +63,7 @@ def funcion8():
     print("grupo Musical: no tengo")
 
 def funcion9():
+    print("Daira Yllen Torres Gonzalez")
     print("Signo Zodiacal: Capricornio")
     print("Color Favorito: Blanco")
     print("Equipo: Ninguno")
