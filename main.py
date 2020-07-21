@@ -37,3 +37,9 @@ def funcion7():
     print("Color favorito: Negro")
     print("Equipo: Ninguno")
     print("Grupo Musical: Los Aldeanos")
+
+def funcion12():
+    print("Signo Zodiacal: Geminis")
+    print("Color Favorito: Celeste")
+    print("Equipo: Rayados")
+    print("Grupo Musical: No tengo favorito jaja")
