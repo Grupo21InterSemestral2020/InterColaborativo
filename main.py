@@ -20,7 +20,11 @@ print("Linus Torvalds")
 
     
 
-
+def funcion2():
+    print("Signo zodiacal: Leo")
+    print("Color favorito: Negro")
+    print("Equipo: Rayados")
+    print("Grupo Musical: ")
 
 def funcion5():
     print("Signo Zodiacal: Escorpio")
