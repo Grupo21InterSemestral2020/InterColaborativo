@@ -29,7 +29,7 @@ class Persona9:
         self.__municipio = nuevoMunicipio
 
     def imprimirInfo(self):
-        print(f'Persona 10 = Nombre:{self.__nombre}, Edad: {self.__edad}, Municipio: {self.__Municipio}')
+        print(f'Persona 10 = Nombre:{self.__nombre}, Edad: {self.__edad}, Municipio: {self.__municipio}')
 
     def obtener_etapa(self):
         if self.__edad < 10:
