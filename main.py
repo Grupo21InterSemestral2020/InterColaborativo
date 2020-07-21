@@ -31,8 +31,14 @@ def funcion5():
     print("Equipo: Rayados")
     print("Grupo musical: no tengo:(")
 
+def funcion7():
+    print("Signo Zodiacal: Piscis")
+    print("Color favorito: Negro")
+    print("Equipo: Ninguno")
+    print("Grupo Musical: Los Aldeanos")
+
 def funcion9():
     print("Signo Zodiacal: Capricornio")
     print("Color Favorito: Blanco")
-    print("Equipo: Tigres")
+    print("Equipo: Ninguno")
     print("Grupo musical: --")
