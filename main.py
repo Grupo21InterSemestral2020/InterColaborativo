@@ -1,3 +1,5 @@
+from persona2 import Persona2
+
 print("Juan Gabriel Lopez")
 print("Axel David Rodriguez Prado")
 print("Maria Fatima Rubi Gzz Gzz")
@@ -125,5 +127,6 @@ def main():
     # crear un objeto de su clase y ejecutar los metodos
     
 
-
-    
+    Persona2("Axel", 20, "Monterrey")
+    print(Persona2.imprimirInfo)
+    print(Persona2.obtenerEtapa)
