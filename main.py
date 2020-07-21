@@ -20,7 +20,11 @@ print("Linus Torvalds")
 
     
 
-
+def funcion2():
+    print("Signo zodiacal: Leo")
+    print("Color favorito: Negro")
+    print("Equipo: Rayados")
+    print("Grupo Musical: ")
 
 def funcion5():
     print("Signo Zodiacal: Escorpio")
@@ -34,17 +38,26 @@ def funcion7():
     print("Equipo: Ninguno")
     print("Grupo Musical: Los Aldeanos")
 
-<<<<<<< HEAD
-def funcion12():
-    print("Signo Zodiacal: Geminis")
-    print("Color Favorito: Celeste")
-    print("Equipo: Rayados")
-    print("Grupo Musical: No tengo favorito jaja")
-=======
 def funcion11():
     print("Signo Zodiacal: Cancer")
     print("Color favorito: Rosa")
     print("Equipo: Monterrey")
     print("Grupo Musical: MS")
     
->>>>>>> 9c26c255fce2c2b56c6345875e67b94e78c1dd5e
+def funcion12():
+    print("Signo Zodiacal: Geminis")
+    print("Color Favorito: Celeste")
+    print("Equipo: Rayados")
+    print("Grupo Musical: No tengo favorito jaja")
+
+def funcion13():
+    print("Signo zodiacal: Escorpion")
+    print("Color favorito: Azul")
+    print("Equipo: Rayados")
+    print("Grupo Musical: MS")
+
+def funcion4():
+    print("Signo Zodiacal: Escorpio")
+    print("Color Favorito: Naranja")
+    print("Equipo: Tigres")
+    print("Grupo Musical: Paramore")
