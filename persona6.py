@@ -4,7 +4,7 @@ class Persona6:
         self.__edad = edad
         self.__municipio = municipio 
 
-     @property
+    @property
     def nombre (self):
         return self.__nombre
 
