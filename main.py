@@ -10,9 +10,10 @@ print("Daira Yllen Torres Gonzalez")
 print("Claudia Morón Fernández")
 print("Blanca Nallely Macias Vazquez")
 print("Paola Nahomi Hinojosa Lozano")
-print("Juan Angel Prieto Mozqueda")
-print("Andres Jared Vela Canizales")
-
-print("Gabriel Jose Elizondo Tijerina")
 print("Linus Torvalds")
 
+def funcion8():
+    print("Signo Zodiacal: Escorpion")
+    print("Color Favorito: Morad0")
+    print("Equipo: Tigres")
+    print("grupo Musical: no tengo")
