@@ -43,6 +43,7 @@ class Persona6:
         else:
             print("Edad Incorrecta")
 
-P6 = Persona6("Johan Alexis Balleza","22","Apodaca")
+P6 = Persona6("Johan Alexis Balleza",22,"Apodaca")
 
 P6.imprimirInfo()
+P6.obtenerEtapa()
