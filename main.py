@@ -26,11 +26,17 @@ def funcion2():
     print("Equipo: Rayados")
     print("Grupo Musical: ")
 
-def funcion5():
-    print("Signo Zodiacal: Escorpio")
-    print("Color favorito: negro")
+def funcion3():
+    print("Signo Zodiacal: virgo")
+    print("Color favorito: verde")
     print("Equipo: Rayados")
-    print("Grupo musical: no tengo:(")
+    print("Grupo musical: queen")
+
+ def funcion4():
+    print("Signo Zodiacal: Escorpio")
+    print("Color Favorito: Naranja")
+    print("Equipo: Tigres")
+    print("Grupo Musical: Paramore")   
 
 
 
@@ -46,14 +52,25 @@ def funcion11():
     print("Equipo: Monterrey")
     print("Grupo Musical: MS")
     
+def funcion12():
+    print("Signo Zodiacal: Geminis")
+    print("Color Favorito: Celeste")
+    print("Equipo: Rayados")
+    print("Grupo Musical: No tengo favorito jaja")
+
 def funcion13():
     print("Signo zodiacal: Escorpion")
     print("Color favorito: Azul")
     print("Equipo: Rayados")
     print("Grupo Musical: MS")
 
+
 def funcion14():
     print("Signo Zodiacal: Cancer")
     print("Color favorito: Verde")
     print("Equipo: Rayados")
     print("Grupo musical: Pesado")
+
+
+
+
