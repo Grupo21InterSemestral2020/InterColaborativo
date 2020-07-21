@@ -12,8 +12,8 @@ print("Blanca Nallely Macias Vazquez")
 print("Paola Nahomi Hinojosa Lozano")
 print("Juan Angel Prieto Mozqueda")
 print("Andres Jared Vela Canizales")
-
-print("Gabriel Jose Elizondo Tijerina")
+print("Gabriel Elizondo")
+print("David Alfredo Gomez Tamez")
 print("Linus Torvalds")
 
 print("Gabriel Jose Elizondo Tijerina")
@@ -25,6 +25,7 @@ def funcion1():
     print("Color favorito: Verde")
     print("Equipo: Tigres")
     print("Grupo Musical: MS")
+<<<<<<< HEAD
 
 
 def funcion4():
@@ -32,6 +33,8 @@ def funcion4():
     print("Color Favorito: Naranja")
     print("Equipo: Tigres")
     print("Grupo Musical: Paramore")
+=======
+>>>>>>> e35d4af9c4e93c54e7ac6cd73adce7a5b57a69ef
     
 def funcion2():
     print("Signo zodiacal: Leo")
@@ -44,6 +47,12 @@ def funcion3():
     print("Color favorito: verde")
     print("Equipo: Rayados")
     print("Grupo musical: queen")
+
+def funcion4():
+    print("Signo Zodiacal: Escorpio")
+    print("Color Favorito: Naranja")
+    print("Equipo: Tigres")
+    print("Grupo Musical: Paramore")   
 
 def funcion7():
     print("Signo Zodiacal: Piscis")
@@ -62,12 +71,15 @@ def funcion9():
     print("Color Favorito: Blanco")
     print("Equipo: Ninguno")
     print("Grupo musical: --")
+<<<<<<< HEAD
     
 def  funcion10():
     print("Signo Zodiacal: Libra")
     print("Color favorito: Aqua")
     print("Equipo: Niguno")
     print("Grupo Musical: BMTH")
+=======
+>>>>>>> e35d4af9c4e93c54e7ac6cd73adce7a5b57a69ef
 
 def funcion11():
     print("Signo Zodiacal: Cancer")
@@ -87,6 +99,14 @@ def funcion13():
     print("Equipo: Rayados")
     print("Grupo Musical: MS")
 
+<<<<<<< HEAD
+=======
+def funcion14():
+    print("Signo Zodiacal: Cancer")
+    print("Color favorito: Verde")
+    print("Equipo: Rayados")
+    print("Grupo musical: Pesado")
+>>>>>>> e35d4af9c4e93c54e7ac6cd73adce7a5b57a69ef
 
 def funcion15():
     print("Signo zodiacal: Cancer")
