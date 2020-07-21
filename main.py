@@ -140,4 +140,4 @@ def funcion4():
     print("Color favorito: Rojo")
     print("Equipo: Tigres")
     print("Grupo musical: Intocable")
->>>>>>> aba53f40850c4e4931c2d49a6faf1506abc90e81
+
