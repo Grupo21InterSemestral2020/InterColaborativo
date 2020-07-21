@@ -27,6 +27,7 @@ def funcion1():
     print("Grupo Musical: MS")
 
 def funcion2():
+    print("Axel David Rodriguez Prado")
     print("Signo zodiacal: Leo")
     print("Color favorito: Negro")
     print("Equipo: Rayados")
