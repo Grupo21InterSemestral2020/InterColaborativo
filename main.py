@@ -51,6 +51,7 @@ def funcion6():
     print("Grupo Musical: 30 Seconds To Mars")   
 
 def funcion7():
+    print("Aranza Carolina Mejorado Casas")
     print("Signo Zodiacal: Piscis")
     print("Color favorito: Negro")
     print("Equipo: Ninguno")
