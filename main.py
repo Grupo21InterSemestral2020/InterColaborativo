@@ -102,6 +102,7 @@ def funcion12():
     print("Grupo Musical: No tengo favorito jaja")
 
 def funcion13():
+    print("Juan Angel Prieto Mozqueda")
     print("Signo zodiacal: Escorpion")
     print("Color favorito: Azul")
     print("Equipo: Rayados")
