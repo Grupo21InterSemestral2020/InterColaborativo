@@ -4,3 +4,19 @@ class Persona5():
         self.__edad = edad
         self.__municipio = municipio
     
+    @property
+    def nombre(self):
+        return self.__nombre
+    
+    @nombre.setter
+    def nombre(self,nuevoNombre):
+        self.__nombre = nuevoNombre
+
+    @property
+    def edad(self):
+        return self.__edad
+    
+    @edad.setter
+    def edad(self,nuevaEdad):
+        self.__edad = nuevaEdad
+        
