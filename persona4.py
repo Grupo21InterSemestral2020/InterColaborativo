@@ -27,6 +27,21 @@ class Persona4:
     @municipio.setter
     def municipio(self,valor):
         self.__municipio=valor
+
+    def ImprimirInfo(self):
+        print(f'Nombre{self.__nombre}\nEdad:{self.__edad}\nMunicipio:{self.__municipio}')
+    
+    def ObtenerEtapa(self):
+        if self.__edad >=0 and self.__edad <=12:
+            print("Etapa: Niño")
+        elif self.__edad >= 12 and self.__edad <=17:
+            print("Etapa:Adolescente")
+        elif self.__edad >=18 and self.__edad <=40:
+            print("Etapa:Adulto")
+        elif self.__edad >=41:
+            print("Etapa:Adulto Mayor")
+
+
     
 
 
