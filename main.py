@@ -75,6 +75,7 @@ def  funcion10():
     print("Grupo Musical: BMTH")
 
 def funcion11():
+    print("Blanca Nallely Macias VAzquez")
     print("Signo Zodiacal: Cancer")
     print("Color favorito: Rosa")
     print("Equipo: Monterrey")
