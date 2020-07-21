@@ -57,6 +57,7 @@ def funcion7():
     print("Grupo Musical: Los Aldeanos")
 
 def funcion8():
+    print("Lesly Abigail Landeros Sanchez")
     print("Signo Zodiacal: Escorpion")
     print("Color Favorito: Morad0")
     print("Equipo: Tigres")
