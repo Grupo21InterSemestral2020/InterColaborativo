@@ -12,46 +12,69 @@ print("Blanca Nallely Macias Vazquez")
 print("Paola Nahomi Hinojosa Lozano")
 print("Juan Angel Prieto Mozqueda")
 print("Andres Jared Vela Canizales")
-print("Gabriel Elizondo")
-print("David Alfredo Gomez Tamez")
+
+print("Gabriel Jose Elizondo Tijerina")
 print("Linus Torvalds")
 
-#funciones
 
-    
 
-def funcion2():
-    print("Signo zodiacal: Leo")
-    print("Color favorito: Negro")
-    print("Equipo: Rayados")
-    print("Grupo Musical: ")
 
-def funcion5():
-    print("Signo Zodiacal: Escorpio")
-    print("Color favorito: negro")
-    print("Equipo: Rayados")
-    print("Grupo musical: no tengo:(")
 
-def funcion7():
-    print("Signo Zodiacal: Piscis")
-    print("Color favorito: Negro")
-    print("Equipo: Ninguno")
-    print("Grupo Musical: Los Aldeanos")
 
-def funcion11():
-    print("Signo Zodiacal: Cancer")
-    print("Color favorito: Rosa")
-    print("Equipo: Monterrey")
-    print("Grupo Musical: MS")
-    
-def funcion13():
-    print("Signo zodiacal: Escorpion")
-    print("Color favorito: Azul")
-    print("Equipo: Rayados")
-    print("Grupo Musical: MS")
 
-def funcion4():
-    print("Signo Zodiacal: Escorpio")
-    print("Color Favorito: Naranja")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+def funcion15():
+    print("Signo zodiacal: Cancer")
+    print("Color favorito: Rojo")
     print("Equipo: Tigres")
-    print("Grupo Musical: Paramore")
+    print("Grupo musical: Intocable")
