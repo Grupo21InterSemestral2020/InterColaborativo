@@ -16,3 +16,16 @@ print("Andres Jared Vela Canizales")
 print("Gabriel Jose Elizondo Tijerina")
 print("Linus Torvalds")
 
+
+
+
+
+
+
+
+
+def funcion2():
+    print("Signo zodiacal: Leo")
+    print("Color favorito: Negro")
+    print("Equipo: Rayados")
+    print("Grupo Musical: ")
