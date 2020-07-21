@@ -88,6 +88,7 @@ def funcion11():
     print("Grupo Musical: MS")
     
 def funcion12():
+    print("Paola Hinojosa Lozano")
     print("Signo Zodiacal: Geminis")
     print("Color Favorito: Celeste")
     print("Equipo: Rayados")
