@@ -53,6 +53,7 @@ def funcion5():
     print("Grupo Musical: no tengo")
 
 def funcion6():
+    print("Johan Alexis Balleza Rangel")
     print("Signo Zodiacal: Virgo")
     print("Color Favorito: Morado")
     print("Equipo: Ninguno")
@@ -66,18 +67,21 @@ def funcion7():
     print("Grupo Musical: Los Aldeanos")
 
 def funcion8():
+    print("Lesly Abigail Landeros Sanchez")
     print("Signo Zodiacal: Escorpion")
     print("Color Favorito: Morad0")
     print("Equipo: Tigres")
     print("grupo Musical: no tengo")
 
 def funcion9():
+    print("Daira Yllen Torres Gonzalez")
     print("Signo Zodiacal: Capricornio")
     print("Color Favorito: Blanco")
     print("Equipo: Ninguno")
     print("Grupo musical: --")
     
 def  funcion10():
+    print("Claudia Moron Fernandez")
     print("Signo Zodiacal: Libra")
     print("Color favorito: Aqua")
     print("Equipo: Niguno")
