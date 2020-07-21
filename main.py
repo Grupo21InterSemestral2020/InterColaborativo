@@ -26,13 +26,6 @@ def funcion1():
     print("Equipo: Tigres")
     print("Grupo Musical: MS")
 
-
-def funcion4():
-    print("Signo Zodiacal: Escorpio")
-    print("Color Favorito: Naranja")
-    print("Equipo: Tigres")
-    print("Grupo Musical: Paramore")
-    
 def funcion2():
     print("Signo zodiacal: Leo")
     print("Color favorito: Negro")
