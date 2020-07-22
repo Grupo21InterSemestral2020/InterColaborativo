@@ -28,10 +28,10 @@ class persona13:
     def municipio(self, valor):
         self.__municipio = valor
 
-     def imprimirInfo(self):
+     def imprInfo(self):
         print(f"{self.__nombre}\n-{self.__edad}\n-{self.__municipio}")
 
-    def Etapa(self):
+    def etapa(self):
         if self.__edad >= 0 and self.__edad <= 10:
             print("Niño")
         elif self.__edad >= 11 and self.__edad <= 17:
