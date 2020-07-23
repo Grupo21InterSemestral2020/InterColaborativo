@@ -51,9 +51,9 @@ while True:
         from figuras.poligono import Poligono
         Lados = int (input("Ingrese el numero de lados: \n"))
         Longitud = int (input("Ingrese la longitud de los lados: "))
-        poligono = poligono(nLado,aLongitud)
-        poligono.area()
-        poligono.ImprimirInfo()
+        Poligono = Poligono (nLado,aLongitud)
+        Poligono.area()
+        Poligono.ImprimirInfo()
     elif opcion==16:
         break
 
