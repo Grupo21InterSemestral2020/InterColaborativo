@@ -22,6 +22,3 @@ class Rectangulo:
 
     def area(self):
         return self.__base * self.__altura
-
-a = Rectangulo(10,10)
-print(a.area())
