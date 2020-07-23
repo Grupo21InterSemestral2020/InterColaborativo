@@ -55,6 +55,6 @@ while True:
         radioCaudrado = int(input("Ingresa el Radio al Cuadrado:"))
         numGrados = int(input("Ingresa el numero de grados:"))
         resultado = sector(pin,radioCaudrado,numGrados)
-        Sector.area()
+        sector.area()
         sector.ImpInf()
-        
+
