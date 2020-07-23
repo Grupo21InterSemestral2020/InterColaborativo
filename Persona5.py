@@ -28,3 +28,5 @@ class Persona5():
     def municipio(self,nuevoMunicipio):
         self.__municipio = nuevoMunicipio
     
+    def imprimir(self):
+        print(f"{self.__nombre},{self.__edad},{self.__municipio}")
