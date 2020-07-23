@@ -1,3 +1,4 @@
+from figuras.rectangulo import Rectangulo
 
 while True:
     print("1.-Area of a rhombus formula")
@@ -23,6 +24,13 @@ while True:
         pass
     elif opcion==2:
         pass
+
+    elif opcion == 10:
+        base = int(input("\nIngresa la base: "))
+        altura = int(input("Ingrese la altura: "))
+        res = Rectangulo(base, altura)
+        print(f"\n>>>El area es: {res.area()}\n")
+
     elif opcion==16:
         break
 
