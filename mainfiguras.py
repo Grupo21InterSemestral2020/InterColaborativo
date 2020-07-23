@@ -73,6 +73,13 @@ while True:
     elif opcion==2:
         pass
 
+    elif opcion==11:
+        from figuras.kite import Kite
+        diagonalE=int(input("Ingresa el numero de la diagonal menor:\n"))
+        diagonalF=int(input("Ingrear el numero de la diagonal mayor:\n"))
+        papalote= Kite(diagonalE,diagonalF)
+        papalote.ImpInfo()
+        papalote.area()
 
 
     elif opcion==16:
