@@ -22,6 +22,13 @@ while True:
     opcion = int(input("Que figura elige?"))
     if opcion==1:
         pass
+    elif opcion ==14:
+        from figuras.paralelogramo import Paralelogramo
+        base = int(input("Ingresa la base del Paralelogramo:\n"))
+        altura = int(input("Ingresa la altura del Paralelogramo:\n"))
+        Paralelo = Paralelogramo(base,altura)
+        Paralelo.area()
+        Paralelo.ImprimirInfo()
     elif opcion==2:
         pass
 
