@@ -97,7 +97,7 @@ while True:
         from figuras.poligono import Poligono
         lado = int(input("Ingresa el numero de lados de la figura:\n"))
         longitud = int(input("Ingresa la longitud de sus lados:\n"))
-        Poligono = Paralelogramo(longitd,lado)
+        Poligono = Poligono(longitd,lado)
         Poligono.area()
         Poligono.ImprimirInfo()
 
