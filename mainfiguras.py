@@ -1,5 +1,5 @@
 from figuras.rectangulo import Rectangulo
-
+from figuras.circulo import Circulo
 while True:
     print("1.-Area of a rhombus formula")
     print("2.-Area of a hexagon formula")
@@ -26,7 +26,9 @@ while True:
     elif opcion == 9:
         pi= int(input("Ingresa pi: "))
         radio = int(input("Ingresa el radio: "))
-        resultado = circulo(pi,radio ** 2) 
+        uncirculo = Circulo(pi,radio)   
+        print(f'El area es  {uncirculo.area()}')
+
 
 
     elif opcion == 10:
