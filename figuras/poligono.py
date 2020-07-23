@@ -18,3 +18,11 @@ class Poligono:
     @aLongitud.setter
     def aLongitud (self,aLongitud):
         self.__aLongitud = aLongitud
+
+    def area (self):
+        area = self.__nLado * self.__aLongitud**2  * (3.14/self.__nLado) / 4
+        return area
+
+    def ImprimirInfo (self):
+        I = (f'Poligono:\n Lado:{self.__nLado}\n aLongitud: {self.__aLongitud}\n El area del poligono es: {self.area()}')
+        print(I)
