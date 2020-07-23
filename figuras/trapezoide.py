@@ -1,4 +1,4 @@
-class trapezoide:
+class Trapezoide:
     def __init__(self,Bmayor,Bmenor):
         self.__Bmayor = Bmayor
         self.__Bmenor = Bmenor
@@ -21,4 +21,8 @@ class trapezoide:
 
     def imprimirInfo(self):
         print(f'Area de trapezoide:\n BaseMayor = {self.__Bmayor}\n BaseMenor = {self.__Bmenor}')
+    
+    def area(self):
+        print(f'Area = {(self.__Bmayor * self.__Bmenor)/2}')
+
     
