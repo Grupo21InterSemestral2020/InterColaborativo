@@ -4,13 +4,13 @@ class Persona9:
         self.__edad = edad
         self.__municipio = municipio
     
-@property
-def nombre(self):
-    return self.__nombre
+    @property
+    def nombre(self):
+        return self.__nombre
 
-@nombre.setter
-def nombre(self, nuevoNombre):
-    self.__nombre = nuevoNombre
+    @nombre.setter
+    def nombre(self, nuevoNombre):
+        self.__nombre = nuevoNombre
 
     @property
     def edad(self):
@@ -34,9 +34,9 @@ def nombre(self, nuevoNombre):
     def obtener_etapa(self):
         if self.__edad < 10:
             print("Etapa: Niñez")
-        elif (self.__edad) >=11 and (self.__edad) <= 18
+        elif self.__edad >=11 and self.__edad <= 18:
             print("Etapa: Adolescencia")
-        elif (self.__edad >=18) and (self.__edad <= 40)
+        elif self.__edad >=18 and self.__edad <= 40:
             print("Etapa: Adulto")
-        elif (self.__edad) >40
+        elif self.__edad >40:
             print("Etapa: Adulto mayor")

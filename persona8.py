@@ -1,30 +1,51 @@
 class Persona8:
-    def _int_(self, nombre, edad, municipio):
+    def _init_(self, nombre, edad, municipio):
         self._nombre= nombre
         self._edad= edad
         self._municipio= municipio
 
     @property
     def nombre(self):
-        return self._nombre
+        return self.__nombre
 
     @nombre.setter
     def nombre(self, valor):
-        self._nombre= valor
+        self.__nombre= valor
 
     @property
     def edad(self):
-        return self._edad
+        return self.__edad
 
     @edad.setter
     def edad(self, valor):
-        self._edad= valor
+        self.__edad= valor
 
     @property
     def municipio(self):
-        return self._edad
+        return self.__municipio
 
-    @edad.setter
+    @municipio.setter
     def municipio(self,valor):
-        self._municipio= valor
+        self.__municipio= valor
+    
+    def ImprimirInfo(self):
+        print (f'{self.__nombre}{self.__edad}{self.__municipio}')
+
+    def ObtenerEtapa (self):
+        if self.__edad >= 0 and self.__edad <=10:
+            print ("NIÑO")
+        elif self.__edad >=11 and self.__edad <=17:
+            print("ADOLESCENTE")
+        elif self.__edad >=18 and self.__edad <=40:
+            print ("ADULTO")
+        elif self.__edad >40:
+            print("ADULTO MAYOR")
+        else:
+            print("ERROR")
+
+            
+
+
+
+
 
