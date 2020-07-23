@@ -5,21 +5,30 @@ class Rombo(object):
         
 @property
 def dmayor(self):
-    return self.__dmayor
+     return self.__dmayor
 
 @dmayor.setter
 def dmayor(self,valor):
-    self.__dmayor = valor
+     self.__dmayor = valor
         
 @property
 def dmenor(self):
-    return self.__dmenor
+     return self.__dmenor
 
 @dmenor.setter
 def dmenor(self,valor2):
-    self.__dmenor = valor2
+     self.__dmenor = valor2
+
+def ImprimirInfo(self):
+    print(f"dmayor:{self.__dmayor}\n dmenor:{self.__dmenor}")
 
 def area(self):
-    area = self.__dmayor * self.__dmenor
+    area = self.__dmayor * self.__dmenor /2
+    print(area)
+
+AreaRombo = Rombo(20,30)
+AreaRombo.area()
+AreaRombo.imprimirInfo()
+
 
 
