@@ -11,5 +11,9 @@ class Cuadrado:
         self.__lado = lado
 
     def area(self,area,lado):
+        print("Lado del cuadrado:")
         area = lado * lado
+    
+    def imprimirInfo(self,area):
+        print(f'su area es: {area}')
     
