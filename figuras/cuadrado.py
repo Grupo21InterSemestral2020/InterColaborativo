@@ -17,6 +17,3 @@ class Cuadrado:
         area = self.__lado * self.__lado
         print(f'tu area es: {area}')
        
-c = Cuadrado(5)
-c.area()
-c.imprimirInfo()
