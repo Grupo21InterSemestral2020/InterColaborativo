@@ -22,7 +22,7 @@ class Persona8:
 
     @property
     def municipio(self):
-        return self.__edad
+        return self.__municipio
 
     @edad.setter
     def municipio(self,valor):
