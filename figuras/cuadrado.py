@@ -10,4 +10,6 @@ class Cuadrado:
     def lado(self,lado):
         self.__lado = lado
 
+    def area(self,area,lado):
+        area = lado * lado
     
