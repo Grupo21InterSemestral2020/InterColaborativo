@@ -29,7 +29,7 @@ class Persona4:
         self.__municipio=valor
 
     def ImprimirInfo(self):
-        print(f'Nombre{self.__nombre}\nEdad:{self.__edad}\nMunicipio:{self.__municipio}')
+        print(f'Nombre:{self.__nombre}\nEdad:{self.__edad}\nMunicipio:{self.__municipio}')
     
     def ObtenerEtapa(self):
         if self.__edad >=0 and self.__edad <=12:
@@ -41,7 +41,9 @@ class Persona4:
         elif self.__edad >=41:
             print("Etapa:Adulto Mayor")
 
+personax = Persona4("Alejandro",21,"Mty")
+personax.ImprimirInfo()
+personax.ObtenerEtapa()
 
-    
 
 

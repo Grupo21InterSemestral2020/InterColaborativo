@@ -24,10 +24,6 @@ class Paralelogramo:
         return area
     
     def ImprimirInfo(self):
-        s = (f"Paralelogramo:\nBase:{self.__base}\nAltura: {self.__altura}\nEl area es {Paralelo.area()}")
+        s = (f"Paralelogramo:\nBase:{self.__base}\nAltura: {self.__altura}\nEl area es {self.area()}")
         print(s)
-
-Paralelo = Paralelogramo(2,10)
-Paralelo.area()
-Paralelo.ImprimirInfo()
         
