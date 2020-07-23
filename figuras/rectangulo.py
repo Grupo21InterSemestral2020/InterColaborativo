@@ -21,4 +21,7 @@ class Rectangulo:
         self.__altura = valor
 
     def area(self):
-        print(self.__base * self.__altura)
+        return self.__base * self.__altura
+
+a = Rectangulo(10,10)
+print(a.area())
