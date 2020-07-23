@@ -22,3 +22,7 @@ class trapezoide:
     def imprimirInfo(self):
         print(f'Area de trapezoide:\n BaseMayor = {self.__Bmayor}\n BaseMenor = {self.__Bmenor}')
     
+    def area(self):
+        print((self.__Bmayor * self.__Bmenor)/2)
+
+    
