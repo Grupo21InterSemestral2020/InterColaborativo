@@ -48,6 +48,12 @@ while True:
         pass
 
     elif opcion==16:
+        from figuras.triangulo import Triangulo
+        base = int(input("Ingresa base del triangulo: "))
+        altura = int(input("Ingresa altura del triangulo: "))
+        T = Triangulo(base,altura)
+        T.imprimirInfo()
+        T.area() 
         break
 
     
