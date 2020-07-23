@@ -23,18 +23,7 @@ while True:
     if opcion==1:
         pass
 
-    
-    elif opcion ==14:
-        from figuras.paralelogramo import Paralelogramo
-        base = int(input("Ingresa la base del Paralelogramo:\n"))
-        altura = int(input("Ingresa la altura del Paralelogramo:\n"))
-        Paralelo = Paralelogramo(base,altura)
-        Paralelo.area()
-        Paralelo.ImprimirInfo()
-    elif opcion==2:
-        pass
-
-    elif opcion == 10:
+       elif opcion == 10:
         base = int(input("\nIngresa la base: "))
         altura = int(input("Ingrese la altura: "))
         res = Rectangulo(base, altura)
@@ -47,6 +36,16 @@ while True:
             elif opcionRectangulo == "3":
                 print("Regresando al menu principal")
                 break
+
+    elif opcion ==14:
+        from figuras.paralelogramo import Paralelogramo
+        base = int(input("Ingresa la base del Paralelogramo:\n"))
+        altura = int(input("Ingresa la altura del Paralelogramo:\n"))
+        Paralelo = Paralelogramo(base,altura)
+        Paralelo.area()
+        Paralelo.ImprimirInfo()
+    elif opcion==2:
+        pass
 
     elif opcion==16:
         break
