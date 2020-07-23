@@ -33,7 +33,7 @@ class persona13:
 
     def etapa(self):
         if self.__edad >= 0 and self.__edad <= 10:
-            print("Niño")
+            print("Niño pequeño")
         elif self.__edad >= 11 and self.__edad <= 17:
             print("Adolescente") 
         elif self.__edad >= 18 and self.__edad <= 40:
