@@ -1,28 +1,42 @@
-class Persona10:
-    def _init_(self,nombre,edad,municipio):
+class Persona9:
+    def__init__(self,nombre,edad,municipio):
         self.__nombre = nombre
         self.__edad = edad
         self.__municipio = municipio
-    @property 
-    def nombre (self):
-     return self.__nombre
-
-    @nombre.setter
-    def nombre (self,nombre10):
-        self.__nombre = nombre10
-
-    @property
-    def edad (self):
-        return self.__edad
     
-    @setter.edad
-    def edad (self,edad10):
-        self._edad = edad10
+@property
+def nombre(self):
+    return self.__nombre
 
-    @property
-    def municipio(self):
-        return self.__municipio   
+@nombre.setter
+def nombre(self, nuevoNombre):
+    self.__nombre = nuevoNombre
 
-    @setter.municipio
-    def municipio (self,municipio10):
-        self.__municipio = municipio10
+@property
+def edad(self):
+    return self.__edad
+
+@edad.setter
+def edad(self, nuevaEdad):
+    self.__edad = nuevaEdad
+
+@property
+def municipio(self):
+    return self.__municipio
+
+@municipio.setter
+def municipio(self, nuevoMunicipio):
+    self.__municipio = nuevoMunicipio
+
+def imprimirInfo(self)
+print(f'Persona 10 = Nombre:{self.__nombre}, Edad: {self.__edad}, Municipio: {self.__Municipio}')
+
+def obtener_etapa(self)
+    if self.__edad < 10:
+        print("Etapa: Niñez")
+    elif self.__edad >=11 and self.__edad <= 18
+        print("Etapa: Adolescencia")
+    elif self.__edad >=18 and self.__edad <= 40
+        print("Etapa: Adulto")
+    elif self.__edad >40
+        print("Etapa: Adulto mayor")
