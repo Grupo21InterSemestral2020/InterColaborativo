@@ -24,7 +24,7 @@ class Persona8:
     def municipio(self):
         return self.__municipio
 
-    @edad.setter
+    @municipio.setter
     def municipio(self,valor):
         self.__municipio= valor
     
