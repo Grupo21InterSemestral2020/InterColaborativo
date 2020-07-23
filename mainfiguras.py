@@ -1,4 +1,6 @@
 from figuras.rectangulo import Rectangulo
+from figuras.circulo import Circulo
+from figuras.trapezoide import Trapezoide
 
 while True:
     print("1.-Area of a rhombus formula")
@@ -23,6 +25,14 @@ while True:
     if opcion==1:
         pass
 
+    elif opcion == 9:
+        pi= int(input("Ingresa pi: "))
+        radio = int(input("Ingresa el radio: "))
+        uncirculo = Circulo(pi,radio)   
+        print(f'El area es  {uncirculo.area()}')
+
+
+
     elif opcion == 10:
         base = int(input("\nIngresa la base: "))
         altura = int(input("Ingrese la altura: "))
@@ -44,17 +54,45 @@ while True:
         Paralelo = Paralelogramo(base,altura)
         Paralelo.area()
         Paralelo.ImprimirInfo()
+
+    elif opcion==15:
+        from figuras.cuadrado import Cuadrado
+        lado = int(input("Ingrese lado: "))
+        c = Cuadrado(lado)
+        print('El area es:')
+        break
+
+    elif opcion == 17:
+        Bmayor = int(input("Ingrese medida de la Base Mayor: "))
+        Bmenor = int(input("Ingrese medida de la Base menor: "))
+        result = Trapezoide(Bmayor,Bmenor)
+        result.imprimirInfo()
+        result.area()
+
+
     elif opcion==2:
         pass
 
-    elif opcion == 15:
-        from figuras.poligono import Poligono
-        Lados = int (input("Ingrese el numero de lados: \n"))
-        Longitud = int (input("Ingrese la longitud de los lados: "))
-        Poligono = Poligono (nLado,aLongitud)
-        Poligono.area()
-        Poligono.ImprimirInfo()
+   
+
+
     elif opcion==16:
         break
 
-    
+    elif opcion==6:
+        pin = int(input("Ingresa el Pin: "))
+        radioCaudrado = int(input("Ingresa el Radio al Cuadrado:"))
+        numGrados = int(input("Ingresa el numero de grados:"))
+        resultado = sector(pin,radioCaudrado,numGrados)
+        sector.area()
+        sector.ImpInf()
+
+    elif opcion == 8:
+        from figuras.poligono import Poligono
+        lado = int(input("Ingresa el numero de lados de la figura:\n"))
+        longitud = int(input("Ingresa la longitud de sus lados:\n"))
+        Poligono = Paralelogramo(longitd,lado)
+        Poligono.area()
+        Poligono.ImprimirInfo()
+
+
