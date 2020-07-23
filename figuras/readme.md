@@ -1,0 +1,1 @@
+# En la carpeta figuras se colocaran todas las clases figuras
