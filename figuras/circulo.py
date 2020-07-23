@@ -20,7 +20,7 @@ class Circulo:
         self.__radio= valor2
 
     def area(self):
-        area = self.__pi * self.__radio
+        area = self.__pi * self.__radio ** 2
         return area
 
     def imprimirInfo(self):
