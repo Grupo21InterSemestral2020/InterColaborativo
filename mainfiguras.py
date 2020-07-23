@@ -47,6 +47,14 @@ while True:
     elif opcion==2:
         pass
 
+    elif opcion==15:
+        from figuras.cuadrado import Cuadrado
+        lado = int(input("Ingrese lado: "))
+        c = Cuadrado(lado)
+        print('El area es:')
+        break
+
+
     elif opcion==16:
         break
 
