@@ -28,8 +28,18 @@ class persona7:
     def municipio(self,valor):
         self.__municipio = valor
 
-    def imprimir(self):
+    def imprimirInf(self):
         print(f"Nombre: {self.__Nombre},edad: {self.__edad},municipio: {self.__municipio}")
+
+    def obtenerEtapa(self):
+        if self.__edad >= 0 and self.__edad <= 10:
+            print("Es niño")
+        elif self.__edad >= 11 and self.__edad <= 17:
+            print("Es adolescente") 
+        elif self.__edad >= 18 and self.__edad <= 40:
+            print("Es adulto")
+        elif self.__edad > 40:
+            print("Es adulto mayor")
 
 
 
