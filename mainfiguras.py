@@ -47,4 +47,11 @@ while True:
     elif opcion==16:
         break
 
-    
+    elif opcion==6:
+        pin = int(input("Ingresa el Pin: "))
+        radioCaudrado = int(input("Ingresa el Radio al Cuadrado:"))
+        numGrados = int(input("Ingresa el numero de grados:"))
+        resultado = sector(pin,radioCaudrado,numGrados)
+        Sector.area()
+        sector.ImpInf()
+        
