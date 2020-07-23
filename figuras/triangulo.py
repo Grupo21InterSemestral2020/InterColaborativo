@@ -20,12 +20,12 @@ class Triangulo:
         self.__altura = valor 
 
     def imprimirInfo(self):
-        print(f"base:{self.__base} \n altura:{self.__altura}")
+        print(f"base:{self.__base} \naltura:{self.__altura}")
         
     def area(self):
         area = self.__base * self.__altura /2
         print(area)
 
 Triangulo = Triangulo(10,15)
-Triangulo.area()
-Triangulo.imprimirInfo()    
+Triangulo.imprimirInfo()
+Triangulo.area()    
