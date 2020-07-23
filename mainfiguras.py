@@ -1,4 +1,6 @@
 from figuras.rectangulo import Rectangulo
+from figuras.circulo import Circulo
+from figuras.trapezoide import Trapezoide
 
 while True:
     print("1.-Area of a rhombus formula")
@@ -23,6 +25,14 @@ while True:
     if opcion==1:
         pass
 
+    elif opcion == 9:
+        pi= int(input("Ingresa pi: "))
+        radio = int(input("Ingresa el radio: "))
+        uncirculo = Circulo(pi,radio)   
+        print(f'El area es  {uncirculo.area()}')
+
+
+
     elif opcion == 10:
         base = int(input("\nIngresa la base: "))
         altura = int(input("Ingrese la altura: "))
@@ -44,6 +54,15 @@ while True:
         Paralelo = Paralelogramo(base,altura)
         Paralelo.area()
         Paralelo.ImprimirInfo()
+
+    elif opcion == 17:
+        Bmayor = int(input("Ingrese medida de la Base Mayor: "))
+        Bmenor = int(input("Ingrese medida de la Base menor: "))
+        result = Trapezoide(Bmayor,Bmenor)
+        result.imprimirInfo()
+        result.area()
+
+
     elif opcion==2:
         pass
 
