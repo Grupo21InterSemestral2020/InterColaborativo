@@ -127,6 +127,10 @@ def main():
     # crear un objeto de su clase y ejecutar los metodos
     
 
-    Persona2("Axel", 20, "Monterrey")
-    print(Persona2.imprimirInfo)
-    print(Persona2.obtenerEtapa)
+    persona2 =Persona2("Axel", 20, "Monterrey")
+    persona2.imprimirInfo()
+    persona2.obtenerEtapa()
+    
+    P6 = Persona6("Johan Alexis Balleza",22,"Apodaca")
+    P6.imprimirInfo()
+    P6.obtenerEtapa()

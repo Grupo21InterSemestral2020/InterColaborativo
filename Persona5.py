@@ -19,4 +19,14 @@ class Persona5():
     @edad.setter
     def edad(self,nuevaEdad):
         self.__edad = nuevaEdad
-        
+
+    @property
+    def municipio(self):
+        return self.__municipio
+    
+    @municipio.setter
+    def municipio(self,nuevoMunicipio):
+        self.__municipio = nuevoMunicipio
+    
+    def imprimir(self):
+        print(f"{self.__nombre},{self.__edad},{self.__municipio}")
