@@ -10,3 +10,25 @@ def pin(self):
 @pin.setter
 def pin(self, valor):
     self.__ pin = valor
+
+@property
+def radioCuadrado(self):
+    return self.__radioCuadrado
+@radioCuadrado.setter
+def radioCuadrado(self, valor):
+    self.__ radioCuadrado = valor
+
+@property
+def numGrados(self):
+    return self.__numGrados
+@numGrados.setter
+def numGrados(self, valor):
+    self.__ numGrados = valor
+
+def area(self):
+    area = self.__pin * self.__radioCuadrado * self.__numGrados /360
+    return area
+
+def ImpInf (self):
+    a= (f'Datos del sector:\nPin:{self.__pin}\nRadioCuadrado:{self.__radioCuadrado}\nNumGrados:{self.__numGrados}\n El area es:{self.area()}')
+    print(a)
