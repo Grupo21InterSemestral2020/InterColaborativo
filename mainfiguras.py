@@ -23,5 +23,7 @@ while True:
         pass
     elif opcion==2:
         pass
+    elif opcion==16:
+        break
 
     
