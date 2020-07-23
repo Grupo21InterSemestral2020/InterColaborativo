@@ -7,13 +7,13 @@ class Paralelogramo:
     def base(self):
         return self.__base
 
-    @lado1.setter
+    @base.setter
     def base(self,valor):
         self.__base = valor
         
     @property
     def altura(self):
-        return self.__altura
+        return self.__altura3
         
     @altura.setter
     def altura(self,valor2):
@@ -21,12 +21,13 @@ class Paralelogramo:
         
     def area(self):
         area = self.__base * self.__altura
-    
-    @property
-    def area(self):
-        area = self.__base * self.__altura
         return area
     
-    def ImprimirInfo():
-        return("")
+    def ImprimirInfo(self):
+        s = (f"Paralelogramo:\nBase:{self.__base}\nAltura: {self.__altura}\nEl area es {Paralelo.area()}")
+        print(s)
+
+Paralelo = Paralelogramo(2,10)
+Paralelo.area()
+Paralelo.ImprimirInfo()
         
