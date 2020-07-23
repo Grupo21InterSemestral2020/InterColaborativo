@@ -10,9 +10,13 @@ class Cuadrado:
     def lado(self,lado):
         self.__lado = lado
 
-    def area(self,area,lado):
-        area = lado * lado
-    
-    def imprimirInfo(self,area):
-        print(f'su area es: {area}')
-    
+    def imprimirInfo(self):
+        print(f'Lado: {self.__lado}')
+
+    def area(self):
+        area = self.__lado * self.__lado
+        print(f'tu area es: {area}')
+       
+c = Cuadrado(5)
+c.area()
+c.imprimirInfo()
