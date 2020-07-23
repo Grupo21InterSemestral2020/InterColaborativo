@@ -20,8 +20,8 @@ class Rectangulo:
     def altura(self, valor):
         self.__altura = valor
 
+    def imprimirInfo(self):
+        return (f"\n>>>La base del rectangulo es: {self.__base}\n>>>La altura del rectangulo es: {self.__altura}\n")
+
     def area(self):
         return self.__base * self.__altura
-
-a = Rectangulo(10,10)
-print(a.area())
