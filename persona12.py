@@ -31,9 +31,22 @@ class Persona12:
     def imprimirInfo(self):
         print(f"Nombre: {self.__nombre}, Edad: {self.__edad}, Municipio: {self.__municipio}")
 
-persona1 = Persona12("Paola Nahomi Hinojosa Lozano","18","Gpe")
+    def obtenerEtapa(self):
+        if self.__edad <=10:
+            print("Niñez")
+        elif self.__edad ==11 and self.__edad <=18:
+            print("Adolescencia")
+        elif self.__edad ==18 and self.__edad <=40:
+            print("adulto")
+        elif self.__edad >40:
+            print("Adulto Mayor")
 
-persona1.imprimirInfo()
+
+            
+            
+
+
+
 
 
 
