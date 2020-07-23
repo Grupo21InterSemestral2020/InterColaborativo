@@ -23,7 +23,7 @@ while True:
     if opcion==1:
         pass
 
-       elif opcion == 10:
+    elif opcion == 10:
         base = int(input("\nIngresa la base: "))
         altura = int(input("Ingrese la altura: "))
         res = Rectangulo(base, altura)
