@@ -80,9 +80,16 @@ while True:
         papalote= Kite(diagonalE,diagonalF)
         papalote.ImpInfo()
         papalote.area()
+   
 
 
     elif opcion==16:
+        from figuras.triangulo import Triangulo
+        base = int(input("Ingresa base del triangulo: "))
+        altura = int(input("Ingresa altura del triangulo: "))
+        T = Triangulo(base,altura)
+        T.imprimirInfo()
+        T.area() 
         break
 
     elif opcion==6:
@@ -92,4 +99,13 @@ while True:
         resultado = sector(pin,radioCaudrado,numGrados)
         sector.area()
         sector.ImpInf()
+
+    elif opcion == 8:
+        from figuras.poligono import Poligono
+        lado = int(input("Ingresa el numero de lados de la figura:\n"))
+        longitud = int(input("Ingresa la longitud de sus lados:\n"))
+        Poligono = Poligono(longitd,lado)
+        Poligono.area()
+        Poligono.ImprimirInfo()
+
 
