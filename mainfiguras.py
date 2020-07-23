@@ -1,5 +1,7 @@
 from figuras.rectangulo import Rectangulo
 from figuras.circulo import Circulo
+from figuras.trapezoide import Trapezoide
+
 while True:
     print("1.-Area of a rhombus formula")
     print("2.-Area of a hexagon formula")
@@ -52,6 +54,15 @@ while True:
         Paralelo = Paralelogramo(base,altura)
         Paralelo.area()
         Paralelo.ImprimirInfo()
+
+    elif opcion == 17:
+        Bmayor = int(input("Ingrese medida de la Base Mayor: "))
+        Bmenor = int(input("Ingrese medida de la Base menor: "))
+        result = Trapezoide(Bmayor,Bmenor)
+        result.imprimirInfo()
+        result.area()
+
+
     elif opcion==2:
         pass
 
