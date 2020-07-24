@@ -41,13 +41,6 @@ while True:
         Penta.ImprimirInfo()
         lado2 = (input("Teclee enter para que regresar al menu: "))
 
-
-    elif opcion == 9:
-        pi= int(input("Ingresa pi: "))
-        radio = int(input("Ingresa el radio: "))
-        uncirculo = Circulo(pi,radio)   
-        print(f'El area es  {uncirculo.area()}')
-
     elif opcion == 8:
         from figuras.poligono import Poligono
         Lado = int(input("Ingresa el numero de lados de la figura:\n"))
