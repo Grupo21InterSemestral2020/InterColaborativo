@@ -22,7 +22,7 @@ while True:
     print("18.-Salir")
     opcion = int(input("Que figura elige?"))
      
-    elif opcion== 1:
+     elif opcion== 1:
         from figuras.AreaRombo import Rombo
         dmayor = int(input("Ingresa dmayor del rombo: "))
         dmenor = int(input("Ingresa dmenor del rombo: "))
