@@ -55,7 +55,8 @@ while True:
     elif opcion == 17:
         Bmayor = int(input("Ingrese medida de la Base Mayor: "))
         Bmenor = int(input("Ingrese medida de la Base menor: "))
-        result = Trapezoide(Bmayor,Bmenor)
+        altura = int(input("Ingrese medida de la Altura: "))
+        result = Trapezoide(Bmayor,Bmenor,altura)
         result.imprimirInfo()
         result.area()
 
