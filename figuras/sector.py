@@ -5,9 +5,9 @@ class Sector:
       self.__numGrados = numGrados
 
     @property
-    def pin(self):
+    def pi(self):
         return self.__pi
-    @pin.setter
+    @pi.setter
     def pi(self, valor):
         self.__pi = valor
 
@@ -26,7 +26,7 @@ class Sector:
         self.__numGrados = valor
 
     def area(self):
-        area = (self.__pi * self.__radioCuadrado * self.__numGrados) /360
+        area = (self.__pi * self.__radioCuadrado * self.__numGrados /360
         return area
 
     def ImpInf (self):
