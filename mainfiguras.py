@@ -19,7 +19,7 @@ while True:
     print("15.-Square area formula")
     print("16.-Triangle area formula")
     print("17.-Trapezoid area formula")
-    print("16.-Salir")
+    print("18.-Salir")
     opcion = int(input("Que figura elige?"))
      
     if opcion==1:
@@ -61,7 +61,7 @@ while True:
     elif opcion==2:
         pass
 
-    elif opcion==16:
+    elif opcion==18:
         break
 
     
