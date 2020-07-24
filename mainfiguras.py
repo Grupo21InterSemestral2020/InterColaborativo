@@ -1,6 +1,5 @@
 from figuras.rectangulo import Rectangulo
 from figuras.circulo import Circulo
-from figuras.trapezoide import Trapezoide
 
 while True:
     print("1.-Area of a rhombus formula")
@@ -20,18 +19,23 @@ while True:
     print("15.-Square area formula")
     print("16.-Triangle area formula")
     print("17.-Trapezoid area formula")
-    print("16.-Salir")
+    print("18.-Salir")
     opcion = int(input("Que figura elige?"))
+     
     if opcion==1:
-        pass
+        from figuras.AreaRombo import Rombo
+        dmayor = int(input("Ingresa dmayor del rombo: "))
+        dmenor = int(input("Ingresa dmenor del rombo: "))
+        AreaRombo = AreaRombo(dmayor,dmenor)
+        AreaRombo.imprimirInfo()
+        AreaRombo.area() 
+        break
 
-    elif opcion == 9:
-        pi= int(input("Ingresa pi: "))
-        radio = int(input("Ingresa el radio: "))
-        uncirculo = Circulo(pi,radio)   
+    elif opcion ==9:
+        pi = int(input("Ingresa pi: "))
+        radio = int(input("Ingresa radio: "))
+        uncirculo = Circulo(pi,radio)
         print(f'El area es  {uncirculo.area()}')
-
-
 
     elif opcion == 10:
         base = int(input("\nIngresa la base: "))
@@ -54,18 +58,20 @@ while True:
         Paralelo = Paralelogramo(base,altura)
         Paralelo.area()
         Paralelo.ImprimirInfo()
-
+  
     elif opcion==15:
         from figuras.cuadrado import Cuadrado
         lado = int(input("Ingrese lado: "))
         c = Cuadrado(lado)
-        print('El area es:')
+        c.imprimirInfo()
+        c.area()
         break
 
     elif opcion == 17:
         Bmayor = int(input("Ingrese medida de la Base Mayor: "))
         Bmenor = int(input("Ingrese medida de la Base menor: "))
-        result = Trapezoide(Bmayor,Bmenor)
+        altura = int(input("Ingrese medida de la Altura: "))
+        result = Trapezoide(Bmayor,Bmenor,altura)
         result.imprimirInfo()
         result.area()
 
@@ -73,18 +79,10 @@ while True:
     elif opcion==2:
         pass
 
-   
-
-
-    elif opcion==16:
-        from figuras.triangulo import Triangulo
-        base = int(input("Ingresa base del triangulo: "))
-        altura = int(input("Ingresa altura del triangulo: "))
-        T = Triangulo(base,altura)
-        T.imprimirInfo()
-        T.area() 
+    elif opcion==18:
         break
 
+<<<<<<< HEAD
     elif opcion==6:
         pin = int(input("Ingresa el Pin: "))
         radioCaudrado = int(input("Ingresa el Radio al Cuadrado:"))
@@ -102,3 +100,6 @@ while True:
         Poligono.ImprimirInfo()
 
 
+=======
+    
+>>>>>>> 599076edb85f05faa2830d4726c5270d4c4ed171
