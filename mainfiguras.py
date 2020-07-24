@@ -96,7 +96,7 @@ while True:
         break
 
     elif opcion==6:
-        pi = int(input("Ingresa el Pi: "))
+        pi = float(input("Ingresa el Pi: "))
         radioCaudrado = int(input("Ingresa el Radio al Cuadrado:"))
         numGrados = int(input("Ingresa el numero de grados:"))
         resultado = Sector(pi,radioCaudrado,numGrados)
