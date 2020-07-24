@@ -3,6 +3,7 @@ from figuras.sector import Sector
 from figuras.circulo import Circulo
 from figuras.trapezoide import Trapezoide
 from figuras.pentagono import Pentagono
+from cuadrilatero import cuadrilateroLesly
 
 while True:
     print("1.-Area of a rhombus formula")
@@ -41,6 +42,13 @@ while True:
         Penta.ImprimirInfo()
         lado2 = (input("Teclee enter para que regresar al menu: "))
 
+    elif opcion == 5:
+        Lado1= int(input("ingrese la medida del primer lado: "))
+        Lado2= int(input("ingrese la medida del segundo lado: "))
+        cuadrilatero=(lado1 * lado2)
+        Sen= int(input("¿Cual es la medida del angulo?"))
+        RESULTADO= (cuadrilatero * Sen)
+        print(f'EL AREA DEL CUADRILATERO ES:{RESULTADO}')
 
     elif opcion == 9:
         pi= int(input("Ingresa pi: "))
