@@ -41,4 +41,4 @@ class Persona10:
         elif self.__edad >40:
             print("Adulto mayor")
         else:
-            print("ERROR")
+            print("Error")
