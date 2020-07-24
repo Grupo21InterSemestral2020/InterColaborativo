@@ -3,7 +3,7 @@ from figuras.sector import Sector
 from figuras.circulo import Circulo
 from figuras.trapezoide import Trapezoide
 from figuras.pentagono import Pentagono
-from cuadrilatero import cuadrilatero
+from foguras.cuadrilatero import cuadrilatero
 
 while True:
     print("1.-Area of a rhombus formula")
