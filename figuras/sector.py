@@ -9,21 +9,21 @@ class Sector:
         return self.__pi
     @pin.setter
     def pi(self, valor):
-        self.__ pi = valor
+        self.__pi = valor
 
     @property
     def radioCuadrado(self):
         return self.__radioCuadrado
     @radioCuadrado.setter
     def radioCuadrado(self, valor):
-        self.__ radioCuadrado = valor
+        self.__radioCuadrado = valor
 
     @property
     def numGrados(self):
         return self.__numGrados
     @numGrados.setter
     def numGrados(self, valor):
-        self.__ numGrados = valor
+        self.__numGrados = valor
 
     def area(self):
     area = (self.__pi * self.__radioCuadrado * self.__numGrados) /360
