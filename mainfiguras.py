@@ -1,6 +1,5 @@
 from figuras.rectangulo import Rectangulo
-from figuras.circulo import Circulo
-
+from figuras.sector import Sector
 while True:
     print("1.-Area of a rhombus formula")
     print("2.-Area of a hexagon formula")
@@ -19,23 +18,10 @@ while True:
     print("15.-Square area formula")
     print("16.-Triangle area formula")
     print("17.-Trapezoid area formula")
-    print("18.-Salir")
+    print("16.-Salir")
     opcion = int(input("Que figura elige?"))
-     
     if opcion==1:
-        from figuras.AreaRombo import Rombo
-        dmayor = int(input("Ingresa dmayor del rombo: "))
-        dmenor = int(input("Ingresa dmenor del rombo: "))
-        AreaRombo = AreaRombo(dmayor,dmenor)
-        AreaRombo.imprimirInfo()
-        AreaRombo.area() 
-        break
-
-    elif opcion ==9:
-        pi = float(input("Ingresa pi: "))
-        radio = int(input("Ingresa radio: "))
-        uncirculo = Circulo(pi,radio)
-        print(f'El area es  {uncirculo.area()}')
+        pass
 
     elif opcion == 10:
         base = int(input("\nIngresa la base: "))
@@ -58,48 +44,17 @@ while True:
         Paralelo = Paralelogramo(base,altura)
         Paralelo.area()
         Paralelo.ImprimirInfo()
-  
-    elif opcion==15:
-        from figuras.cuadrado import Cuadrado
-        lado = int(input("Ingrese lado: "))
-        c = Cuadrado(lado)
-        c.imprimirInfo()
-        c.area()
-        break
-
-    elif opcion == 17:
-        Bmayor = int(input("Ingrese medida de la Base Mayor: "))
-        Bmenor = int(input("Ingrese medida de la Base menor: "))
-        altura = int(input("Ingrese medida de la Altura: "))
-        result = Trapezoide(Bmayor,Bmenor,altura)
-        result.imprimirInfo()
-        result.area()
-
-
     elif opcion==2:
         pass
 
-    elif opcion==18:
+    elif opcion==16:
         break
 
-<<<<<<< HEAD
     elif opcion==6:
-        pin = int(input("Ingresa el Pin: "))
+        pi = int(input("Ingresa el Pi: "))
         radioCaudrado = int(input("Ingresa el Radio al Cuadrado:"))
         numGrados = int(input("Ingresa el numero de grados:"))
-        resultado = sector(pin,radioCaudrado,numGrados)
+        resultado = Sector(pi,radioCaudrado,numGrados)
         sector.area()
         sector.ImpInf()
 
-    elif opcion == 8:
-        from figuras.poligono import Poligono
-        Lado = int(input("Ingresa el numero de lados de la figura:\n"))
-        Longitud = int(input("Ingresa la longitud de sus lados:\n"))
-        Poligono = Poligono(Longitd,Lado)
-        Poligono.area()
-        Poligono.ImprimirInfo()
-
-
-=======
-    
->>>>>>> 599076edb85f05faa2830d4726c5270d4c4ed171
