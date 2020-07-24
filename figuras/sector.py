@@ -1,4 +1,4 @@
-class Sector
+class Sector:
     def __init__(self,pi,radioCuadrado,numGrados):
       self.__pi = pi
       self.__radioCuadrado = radioCuadrado
