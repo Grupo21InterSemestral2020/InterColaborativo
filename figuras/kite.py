@@ -19,3 +19,11 @@ class Kite:
     def diagonalF(self,valor):
         self.__diagonalF=valor
     
+    def area(self):
+        print(f"El area del papalote es: {self.__diagonalE * self.__diagonalF / 2}")
+    
+    def ImpInfo(self):
+        print(f"El valor de la diagonal e es: {self.__diagonalE}\nEl valor de la diagonal f es:{self.__diagonalF}")
+
+
+    
