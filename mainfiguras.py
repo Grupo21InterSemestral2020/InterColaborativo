@@ -1,6 +1,7 @@
 from figuras.rectangulo import Rectangulo
 from figuras.circulo import Circulo
 from figuras.trapezoide import Trapezoide
+from figuras.pentagono import Pentagono
 
 while True:
     print("1.-Area of a rhombus formula")
@@ -24,6 +25,13 @@ while True:
     opcion = int(input("Que figura elige?"))
     if opcion==1:
         pass
+
+    elif opcion == 4:
+        lado = int(input("Ingrese medida del lado del Pentagono: "))
+        Penta = Pentagono(lado)
+        Penta.ImprimirInfo()
+        lado2 = (input("Teclee enter para que regresar al menu: "))
+
 
     elif opcion == 9:
         pi= int(input("Ingresa pi: "))
