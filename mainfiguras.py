@@ -30,6 +30,12 @@ while True:
         AreaRombo.area() 
         break
 
+    elif opcion ==9:
+        pi= int(input("Ingresa pi: "))
+        radio =int(input("Ingresa radio: "))
+        uncirculo = Circulo(pi*radio)
+        print(f'El area es  {uncirculo.area()}')
+
     elif opcion == 10:
         base = int(input("\nIngresa la base: "))
         altura = int(input("Ingrese la altura: "))
