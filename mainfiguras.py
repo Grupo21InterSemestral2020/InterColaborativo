@@ -99,7 +99,7 @@ while True:
         pi = float(input("Ingresa el Pi: "))
         radioCaudrado = int(input("Ingresa el Radio al Cuadrado:"))
         numGrados = int(input("Ingresa el numero de grados:"))
-        resultado = Sector(pi,radioCaudrado,numGrados)
-        Sector.area()
-        Sector.ImpInf()
+        misector = Sector(pi,radioCaudrado,numGrados)
+        misector.area()
+        misector.ImpInf()
 
