@@ -21,7 +21,7 @@ while True:
     print("16.-Salir")
     opcion = int(input("Que figura elige?"))
      
-     elif opcion==1:
+    if opcion==1:
         from figuras.AreaRombo import Rombo
         dmayor = int(input("Ingresa dmayor del rombo: "))
         dmenor = int(input("Ingresa dmenor del rombo: "))
@@ -31,9 +31,9 @@ while True:
         break
 
     elif opcion ==9:
-        pi= int(input("Ingresa pi: "))
-        radio =int(input("Ingresa radio: "))
-        uncirculo = Circulo(pi*radio)
+        pi = int(input("Ingresa pi: "))
+        radio = int(input("Ingresa radio: "))
+        uncirculo = Circulo(pi,radio)
         print(f'El area es  {uncirculo.area()}')
 
     elif opcion == 10:
