@@ -1,4 +1,5 @@
 from figuras.rectangulo import Rectangulo
+from figuras.circulo import Circulo
 
 while True:
     print("1.-Area of a rhombus formula")
