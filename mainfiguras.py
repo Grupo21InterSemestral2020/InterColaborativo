@@ -95,9 +95,9 @@ while True:
 
     elif opcion == 8:
         from figuras.poligono import Poligono
-        lado = int(input("Ingresa el numero de lados de la figura:\n"))
-        longitud = int(input("Ingresa la longitud de sus lados:\n"))
-        Poligono = Poligono(longitd,lado)
+        Lado = int(input("Ingresa el numero de lados de la figura:\n"))
+        Longitud = int(input("Ingresa la longitud de sus lados:\n"))
+        Poligono = Poligono(Longitd,Lado)
         Poligono.area()
         Poligono.ImprimirInfo()
 
