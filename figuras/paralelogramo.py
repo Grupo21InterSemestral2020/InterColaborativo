@@ -13,7 +13,7 @@ class Paralelogramo:
         
     @property
     def altura(self):
-        return self.__altura3
+        return self.__altura
         
     @altura.setter
     def altura(self,valor2):
