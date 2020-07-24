@@ -1,5 +1,9 @@
 from figuras.rectangulo import Rectangulo
 from figuras.sector import Sector
+from figuras.circulo import Circulo
+from figuras.trapezoide import Trapezoide
+from figuras.pentagono import Pentagono
+
 while True:
     print("1.-Area of a rhombus formula")
     print("2.-Area of a hexagon formula")
@@ -20,8 +24,43 @@ while True:
     print("17.-Trapezoid area formula")
     print("16.-Salir")
     opcion = int(input("Que figura elige?"))
-    if opcion==1:
-        pass
+     
+    if opcion== 1:
+        from figuras.AreaRombo import Rombo
+        dmayor = int(input("Ingresa dmayor del rombo: "))
+        dmenor = int(input("Ingresa dmenor del rombo: "))
+        Rombo = AreaRombo(dmayor,dmenor)
+        Rombo.imprimirInfo()
+        Rombo.area()
+        break
+     
+
+    elif opcion == 4:
+        lado = int(input("Ingrese medida del lado del Pentagono: "))
+        Penta = Pentagono(lado)
+        Penta.ImprimirInfo()
+        lado2 = (input("Teclee enter para que regresar al menu: "))
+
+
+    elif opcion == 9:
+        pi= int(input("Ingresa pi: "))
+        radio = int(input("Ingresa el radio: "))
+        uncirculo = Circulo(pi,radio)   
+        print(f'El area es  {uncirculo.area()}')
+
+    elif opcion == 8:
+        from figuras.poligono import Poligono
+        Lado = int(input("Ingresa el numero de lados de la figura:\n"))
+        Longitud = int(input("Ingresa la longitud de sus lados:\n"))
+        Poligono = Poligono(Longitd,Lado)
+        Poligono.area()
+        Poligono.ImprimirInfo()
+
+    elif opcion ==9:
+        pi = int(input("Ingresa pi: "))
+        radio = int(input("Ingresa radio: "))
+        uncirculo = Circulo(pi,radio)
+        print(f'El area es  {uncirculo.area()}')
 
     elif opcion == 10:
         base = int(input("\nIngresa la base: "))
@@ -36,6 +75,12 @@ while True:
             elif opcionRectangulo == "3":
                 print("Regresando al menu principal")
                 break
+    elif opcion == 11:
+        diagonalE=int(input("Ingresa el numero de la diagonal menor:\n"))
+        diagonalF=int(input("Ingrear el numero de la diagonal mayor:\n"))
+        papalote= Kite(diagonalE,diagonalF)
+        papalote.ImpInfo()
+        papalote.area()
 
     elif opcion ==14:
         from figuras.paralelogramo import Paralelogramo

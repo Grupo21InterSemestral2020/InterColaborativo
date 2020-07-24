@@ -26,6 +26,4 @@ class Triangulo:
         area = self.__base * self.__altura /2
         print(area)
 
-Triangulo = Triangulo(10,15)
-Triangulo.imprimirInfo()
-Triangulo.area()    
+  
