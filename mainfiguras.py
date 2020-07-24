@@ -58,6 +58,24 @@ while True:
         Paralelo = Paralelogramo(base,altura)
         Paralelo.area()
         Paralelo.ImprimirInfo()
+  
+    elif opcion==15:
+        from figuras.cuadrado import Cuadrado
+        lado = int(input("Ingrese lado: "))
+        c = Cuadrado(lado)
+        c.imprimirInfo()
+        c.area()
+        break
+
+    elif opcion == 17:
+        Bmayor = int(input("Ingrese medida de la Base Mayor: "))
+        Bmenor = int(input("Ingrese medida de la Base menor: "))
+        altura = int(input("Ingrese medida de la Altura: "))
+        result = Trapezoide(Bmayor,Bmenor,altura)
+        result.imprimirInfo()
+        result.area()
+
+
     elif opcion==2:
         pass
 
