@@ -138,3 +138,12 @@ def main():
     persona7 = persona7("Carolina",19,"Apodaca")
     persona7.imprimirInf()
     persona7.obtenerEtapa()
+
+    persona13 = Persona13("Juan Angel",20,"Monterrey")
+    persona13.imprimirInf()
+    persona13.obtenerEtapa()
+
+    persona10 = Persona10("Claudia",18,"San Nicolas")
+    persona10.ImprimirInfo()
+    persona10.obtenerEtapa()
+
