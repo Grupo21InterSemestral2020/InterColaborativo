@@ -32,7 +32,7 @@ while True:
         break
 
     elif opcion ==9:
-        pi = int(input("Ingresa pi: "))
+        pi = float(input("Ingresa pi: "))
         radio = int(input("Ingresa radio: "))
         uncirculo = Circulo(pi,radio)
         print(f'El area es  {uncirculo.area()}')
