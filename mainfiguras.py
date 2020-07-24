@@ -22,14 +22,31 @@ while True:
     print("18.-Salir")
     opcion = int(input("Que figura elige?"))
      
-    if opcion==1:
+    elif opcion== 1:
         from figuras.AreaRombo import Rombo
         dmayor = int(input("Ingresa dmayor del rombo: "))
         dmenor = int(input("Ingresa dmenor del rombo: "))
-        AreaRombo = AreaRombo(dmayor,dmenor)
-        AreaRombo.imprimirInfo()
-        AreaRombo.area() 
+        Rombo = AreaRombo(dmayor,dmenor)
+        Rombo.imprimirInfo()
+        Rombo.area()
         break
+     
+
+    elif opcion==6:
+        pin = int(input("Ingresa el Pin: "))
+        radioCaudrado = int(input("Ingresa el Radio al Cuadrado:"))
+        numGrados = int(input("Ingresa el numero de grados:"))
+        resultado = sector(pin,radioCaudrado,numGrados)
+        sector.area()
+        sector.ImpInf()
+
+    elif opcion == 8:
+        from figuras.poligono import Poligono
+        Lado = int(input("Ingresa el numero de lados de la figura:\n"))
+        Longitud = int(input("Ingresa la longitud de sus lados:\n"))
+        Poligono = Poligono(Longitd,Lado)
+        Poligono.area()
+        Poligono.ImprimirInfo()
 
     elif opcion ==9:
         pi = int(input("Ingresa pi: "))
@@ -50,6 +67,12 @@ while True:
             elif opcionRectangulo == "3":
                 print("Regresando al menu principal")
                 break
+    elif opcion == 11:
+        diagonalE=int(input("Ingresa el numero de la diagonal menor:\n"))
+        diagonalF=int(input("Ingrear el numero de la diagonal mayor:\n"))
+        papalote= Kite(diagonalE,diagonalF)
+        papalote.ImpInfo()
+        papalote.area()
 
     elif opcion ==14:
         from figuras.paralelogramo import Paralelogramo
@@ -81,22 +104,6 @@ while True:
 
     elif opcion==18:
         break
-
-    elif opcion==6:
-        pin = int(input("Ingresa el Pin: "))
-        radioCaudrado = int(input("Ingresa el Radio al Cuadrado:"))
-        numGrados = int(input("Ingresa el numero de grados:"))
-        resultado = sector(pin,radioCaudrado,numGrados)
-        sector.area()
-        sector.ImpInf()
-
-    elif opcion == 8:
-        from figuras.poligono import Poligono
-        Lado = int(input("Ingresa el numero de lados de la figura:\n"))
-        Longitud = int(input("Ingresa la longitud de sus lados:\n"))
-        Poligono = Poligono(Longitd,Lado)
-        Poligono.area()
-        Poligono.ImprimirInfo()
 
 
     
