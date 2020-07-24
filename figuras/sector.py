@@ -26,7 +26,7 @@ class Sector:
         self.__numGrados = valor
 
     def area(self):
-        area = (self.__pi * self.__radioCuadrado * self.__numGrados /360
+        area = (self.__pi * self.__radioCuadrado * self.__numGrados) /360
         return area
 
     def ImpInf (self):
