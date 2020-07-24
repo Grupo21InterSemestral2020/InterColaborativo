@@ -59,7 +59,8 @@ while True:
         from figuras.cuadrado import Cuadrado
         lado = int(input("Ingrese lado: "))
         c = Cuadrado(lado)
-        print('El area es:')
+        c.imprimirInfo()
+        c.area()
         break
 
     elif opcion == 17:
