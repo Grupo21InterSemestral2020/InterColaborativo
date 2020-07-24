@@ -59,7 +59,7 @@ while True:
     elif opcion == 8:
         from figuras.poligono import Poligono
         Lado = int(input("Ingresa el numero de lados de la figura:\n"))
-        Longitud = int(input("Ingresa la longitud de sus lados:\n"))
+        aLongitud = int(input("Ingresa la longitud de sus lados:\n"))
         Poligono = Poligono(Longitd,Lado)
         Poligono.area()
         Poligono.ImprimirInfo()
@@ -107,7 +107,7 @@ while True:
         pi = float(input("Ingresa el Pi: "))
         radioCaudrado = int(input("Ingresa el Radio al Cuadrado:"))
         numGrados = int(input("Ingresa el numero de grados:"))
-        resultado = Sector(pi,radioCaudrado,numGrados)
-        Sector.area()
-        Sector.ImpInf()
+        misector = Sector(pi,radioCaudrado,numGrados)
+        misector.area()
+        misector.ImpInf()
 

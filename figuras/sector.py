@@ -5,9 +5,9 @@ class Sector:
       self.__numGrados = numGrados
 
     @property
-    def pin(self):
+    def pi(self):
         return self.__pi
-    @pin.setter
+    @pi.setter
     def pi(self, valor):
         self.__pi = valor
 
