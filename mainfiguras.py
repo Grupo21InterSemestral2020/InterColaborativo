@@ -32,7 +32,7 @@ while True:
         break
 
     elif opcion ==9:
-        pi = int(input("Ingresa pi: "))
+        pi = float(input("Ingresa pi: "))
         radio = int(input("Ingresa radio: "))
         uncirculo = Circulo(pi,radio)
         print(f'El area es  {uncirculo.area()}')
@@ -70,7 +70,8 @@ while True:
     elif opcion == 17:
         Bmayor = int(input("Ingrese medida de la Base Mayor: "))
         Bmenor = int(input("Ingrese medida de la Base menor: "))
-        result = Trapezoide(Bmayor,Bmenor)
+        altura = int(input("Ingrese medida de la Altura: "))
+        result = Trapezoide(Bmayor,Bmenor,altura)
         result.imprimirInfo()
         result.area()
 
@@ -81,4 +82,24 @@ while True:
     elif opcion==18:
         break
 
+<<<<<<< HEAD
+    elif opcion==6:
+        pin = int(input("Ingresa el Pin: "))
+        radioCaudrado = int(input("Ingresa el Radio al Cuadrado:"))
+        numGrados = int(input("Ingresa el numero de grados:"))
+        resultado = sector(pin,radioCaudrado,numGrados)
+        sector.area()
+        sector.ImpInf()
+
+    elif opcion == 8:
+        from figuras.poligono import Poligono
+        Lado = int(input("Ingresa el numero de lados de la figura:\n"))
+        Longitud = int(input("Ingresa la longitud de sus lados:\n"))
+        Poligono = Poligono(Longitd,Lado)
+        Poligono.area()
+        Poligono.ImprimirInfo()
+
+
+=======
     
+>>>>>>> 599076edb85f05faa2830d4726c5270d4c4ed171
