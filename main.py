@@ -139,6 +139,6 @@ def main():
     persona7.imprimirInf()
     persona7.obtenerEtapa()
 
-    persona13 = persona13("Juan Angel",20,"Monterrey")
+    persona13 = Persona13("Juan Angel",20,"Monterrey")
     persona13.imprimirInf()
     persona13.obtenerEtapa()
