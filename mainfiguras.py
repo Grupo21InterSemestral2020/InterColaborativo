@@ -89,6 +89,15 @@ while True:
         c.area()
         break
 
+    elif opcion==16:
+        from figuras.triangulo import Triangulo
+        base = int(input("Ingresa base del triangulo: "))
+        altura = int(input("Ingresa altura del triangulo: "))
+        Triangulo = Triangulo(base,altura)
+        Triangulo.imprimirInfo()
+        Triangulo.area()   
+        break
+
     elif opcion == 17:
         Bmayor = int(input("Ingrese medida de la Base Mayor: "))
         Bmenor = int(input("Ingrese medida de la Base menor: "))
@@ -101,9 +110,11 @@ while True:
     elif opcion==2:
         pass
 
+
+
+
     elif opcion==18:
         break
-
 
 
     
