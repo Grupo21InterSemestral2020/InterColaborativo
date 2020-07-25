@@ -123,6 +123,13 @@ def funcion15():
     print("Equipo: Tigres")
     print("Grupo musical: Intocable")
 
+    def funcion16():
+    print("David Alfredo Gómez Tamez")
+    print("Signo zodiacal: Cancer")
+    print("Color favorito: Negro")
+    print("Equipo: Barcelona")
+    print("Grupo musical: Mana")
+
 def main():
     # crear un objeto de su clase y ejecutar los metodos
     
@@ -147,3 +154,6 @@ def main():
     persona10.ImprimirInfo()
     persona10.obtenerEtapa()
 
+    person = Persona16("David Tamez",18,"Monterrey")
+    person.imprimirInfo()
+    person.obtenerEtapa()
