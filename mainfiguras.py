@@ -97,6 +97,15 @@ while True:
         Paralelo = Paralelogramo(base,altura)
         Paralelo.area()
         Paralelo.ImprimirInfo()
+
+    elif opcion ==17:
+        Bmenor = int(input("Ingrese medida de la Base menor: "))
+        Bmayor = int(input("Ingrese medida de la Base mayor: "))
+        altura = int(input("Ingrese medida de la altura: "))
+        result = Trapezoide(Bmenor,Bmayor,altura)
+        result.area()
+        result.imprimirInfo()
+
     elif opcion==2:
         pass
 
