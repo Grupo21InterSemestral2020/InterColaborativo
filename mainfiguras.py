@@ -47,7 +47,7 @@ while True:
     elif opcion == 5:
         Lado1= int(input("ingrese la medida del primer lado: "))
         Lado2= int(input("ingrese la medida del segundo lado: "))
-        cuadrilatero=(lado1 * lado2)
+        cuadrilatero=(Lado1 * Lado2)
         Sen= int(input("¿Cual es la medida del angulo?"))
         RESULTADO= (cuadrilatero * Sen)
         print(f'EL AREA DEL CUADRILATERO ES:{RESULTADO}')
@@ -99,15 +99,6 @@ while True:
         Paralelo = Paralelogramo(base,altura)
         Paralelo.area()
         Paralelo.ImprimirInfo()
-
-    elif opcion ==17:
-        Bmenor = int(input("Ingrese medida de la Base menor: "))
-        Bmayor = int(input("Ingrese medida de la Base mayor: "))
-        altura = int(input("Ingrese medida de la altura: "))
-        result = Trapezoide(Bmenor,Bmayor,altura)
-        result.area()
-        result.imprimirInfo()
-
     elif opcion==2:
         pass
 
