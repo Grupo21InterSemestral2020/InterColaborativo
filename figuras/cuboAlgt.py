@@ -21,14 +21,10 @@ class Cubo:
     @Lado2.setter
     def Lado2 (self, valor):
         self.__Lado2= valor
-
-    @property
-    def SumLd (self):
-        return self.__SumLd
-
-    @SumLd.setter
-    def SumLd (self, valor):
-        self.__SumLd= valor
+    
+    def SumLd(self):
+        SumLd = 6
+        return SumLd
 
     def Area(self):
         Area = self.__Lado1 * self.__Lado2 * self.__SumLd
