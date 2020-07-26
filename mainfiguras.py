@@ -3,7 +3,7 @@ from figuras.sector import Sector
 from figuras.circulo import Circulo
 from figuras.trapezoide import Trapezoide
 from figuras.pentagono import Pentagono
-from foguras.cuadrilatero import cuadrilatero
+from figuras.cuadrilatero import cuadrilatero
 from figuras.cuboAlgt import Cubo
 from figuras.octagono import octagono
 
