@@ -4,6 +4,7 @@ from figuras.circulo import Circulo
 from figuras.trapezoide import Trapezoide
 from figuras.pentagono import Pentagono
 from foguras.cuadrilatero import cuadrilatero
+from figuras.cuboAlgt import Cubo
 
 while True:
     print("1.-Area of a rhombus formula")
@@ -23,6 +24,7 @@ while True:
     print("15.-Square area formula")
     print("16.-Triangle area formula")
     print("17.-Trapezoid area formula")
+    print("18.-Area of a Cube formula")
     print("16.-Salir")
     opcion = int(input("Que figura elige?"))
      
@@ -120,3 +122,12 @@ while True:
         misector.area()
         misector.ImpInf()
 
+
+    elif opcion==18:
+        Lado1 = int(input("Ingrese la medida del lado 1"))
+        Lado2 = int(input("Ingrese la medida del lado 2"))
+        SumLd = int(input("Ingrese la suma de los lados del cubo"))
+        Cubo = Cubo(base,altura,SumLd)
+        Cubo.area()
+        Cubo.ImprimirInfo()
+        
