@@ -4,6 +4,7 @@ from figuras.circulo import Circulo
 from figuras.trapezoide import Trapezoide
 from figuras.pentagono import Pentagono
 from foguras.cuadrilatero import cuadrilatero
+from figuras.octagono import octagono
 
 while True:
     print("1.-Area of a rhombus formula")
@@ -49,6 +50,11 @@ while True:
         Sen= int(input("¿Cual es la medida del angulo?"))
         RESULTADO= (cuadrilatero * Sen)
         print(f'EL AREA DEL CUADRILATERO ES:{RESULTADO}')
+
+    elif opcion == 7:
+        perimetro= int(input("Ingrese la medida deseada: "))
+        apotema= float(input("Ingrese la medida: "))
+        
 
     elif opcion == 9:
         pi= int(input("Ingresa pi: "))
