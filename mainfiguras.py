@@ -4,11 +4,8 @@ from figuras.circulo import Circulo
 from figuras.trapezoide import Trapezoide
 from figuras.pentagono import Pentagono
 from foguras.cuadrilatero import cuadrilatero
-<<<<<<< HEAD
-from figuras.octagono import octagono
-=======
 from figuras.cuboAlgt import Cubo
->>>>>>> 89a699eb76fe3f8b60819018527a7c6052f943a0
+from figuras.octagono import octagono
 
 while True:
     print("1.-Area of a rhombus formula")
@@ -59,6 +56,8 @@ while True:
     elif opcion == 7:
         perimetro= int(input("Ingrese la medida deseada: "))
         apotema= float(input("Ingrese la medida: "))
+        area= (perimetro * apotema)/2
+        print(f'El area del octagono es: {area}')
         
 
     elif opcion == 9:
