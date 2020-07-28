@@ -3,7 +3,9 @@ from figuras.sector import Sector
 from figuras.circulo import Circulo
 from figuras.trapezoide import Trapezoide
 from figuras.pentagono import Pentagono
-from foguras.cuadrilatero import cuadrilatero
+from figuras.cuadrilatero import cuadrilatero
+from figuras.cuboAlgt import Cubo
+from figuras.octagono import octagono
 
 while True:
     print("1.-Area of a rhombus formula")
@@ -23,6 +25,7 @@ while True:
     print("15.-Square area formula")
     print("16.-Triangle area formula")
     print("17.-Trapezoid area formula")
+    print("18.-Area of a Cube formula")
     print("16.-Salir")
     opcion = int(input("Que figura elige?"))
      
@@ -45,10 +48,17 @@ while True:
     elif opcion == 5:
         Lado1= int(input("ingrese la medida del primer lado: "))
         Lado2= int(input("ingrese la medida del segundo lado: "))
-        cuadrilatero=(lado1 * lado2)
+        cuadrilatero=(Lado1 * Lado2)
         Sen= int(input("¿Cual es la medida del angulo?"))
         RESULTADO= (cuadrilatero * Sen)
         print(f'EL AREA DEL CUADRILATERO ES:{RESULTADO}')
+
+    elif opcion == 7:
+        perimetro= int(input("Ingrese la medida deseada: "))
+        apotema= float(input("Ingrese la medida: "))
+        area= (perimetro * apotema)/2
+        print(f'El area del octagono es: {area}')
+        
 
     elif opcion == 9:
         pi= int(input("Ingresa pi: "))
@@ -97,15 +107,6 @@ while True:
         Paralelo = Paralelogramo(base,altura)
         Paralelo.area()
         Paralelo.ImprimirInfo()
-
-    elif opcion ==17:
-        Bmenor = int(input("Ingrese medida de la Base menor: "))
-        Bmayor = int(input("Ingrese medida de la Base mayor: "))
-        altura = int(input("Ingrese medida de la altura: "))
-        result = Trapezoide(Bmenor,Bmayor,altura)
-        result.area()
-        result.imprimirInfo()
-
     elif opcion==2:
         pass
 
@@ -120,3 +121,12 @@ while True:
         misector.area()
         misector.ImpInf()
 
+
+    elif opcion==18:
+        Lado1 = int(input("Ingrese la medida del lado 1"))
+        Lado2 = int(input("Ingrese la medida del lado 2"))
+        SumLd = int(input("Ingrese la suma de los lados del cubo"))
+        Cubo = Cubo(base,altura,SumLd)
+        Cubo.area()
+        Cubo.ImprimirInfo()
+        
