@@ -26,7 +26,7 @@ class Ellipse:
         self.__b = valor
 
     def area(self):
-        area = self.__pi * sel.__b * self.__b
+        area = self.__pi * self.__b * self.__b
         return area
 
     def ImprimirInfo(self):
