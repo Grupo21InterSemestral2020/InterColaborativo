@@ -1,5 +1,11 @@
 from figuras.rectangulo import Rectangulo
+from figuras.sector import Sector
 from figuras.circulo import Circulo
+from figuras.trapezoide import Trapezoide
+from figuras.pentagono import Pentagono
+from figuras.cuadrilatero import cuadrilatero
+from figuras.cuboAlgt import Cubo
+from figuras.octagono import octagono
 
 while True:
     print("1.-Area of a rhombus formula")
@@ -19,24 +25,61 @@ while True:
     print("15.-Square area formula")
     print("16.-Triangle area formula")
     print("17.-Trapezoid area formula")
-    print("18.-Salir")
+    print("18.-Area of a Cube formula")
+    print("16.-Salir")
     opcion = int(input("Que figura elige?"))
      
-    if opcion==1:
+    if opcion== 1:
         from figuras.AreaRombo import Rombo
         dmayor = int(input("Ingresa dmayor del rombo: "))
         dmenor = int(input("Ingresa dmenor del rombo: "))
-        AreaRombo = AreaRombo(dmayor,dmenor)
-        AreaRombo.imprimirInfo()
-        AreaRombo.area() 
+        Rombo = AreaRombo(dmayor,dmenor)
+        Rombo.imprimirInfo()
+        Rombo.area()
         break
+     
 
-    elif opcion ==9:
-        pi = int(input("Ingresa pi: "))
-        radio = int(input("Ingresa radio: "))
-        uncirculo = Circulo(pi,radio)
+    elif opcion == 4:
+        lado = int(input("Ingrese medida del lado del Pentagono: "))
+        Penta = Pentagono(lado)
+        Penta.ImprimirInfo()
+        lado2 = (input("Teclee enter para que regresar al menu: "))
+
+    elif opcion == 5:
+        Lado1= int(input("ingrese la medida del primer lado: "))
+        Lado2= int(input("ingrese la medida del segundo lado: "))
+        cuadrilatero=(Lado1 * Lado2)
+        Sen= int(input("¿Cual es la medida del angulo?"))
+        RESULTADO= (cuadrilatero * Sen)
+        print(f'EL AREA DEL CUADRILATERO ES:{RESULTADO}')
+
+    elif opcion == 7:
+        perimetro= int(input("Ingrese la medida deseada: "))
+        apotema= float(input("Ingrese la medida: "))
+        area= (perimetro * apotema)/2
+        print(f'El area del octagono es: {area}')
+        
+
+    elif opcion == 9:
+        pi= int(input("Ingresa pi: "))
+        radio = int(input("Ingresa el radio: "))
+        uncirculo = Circulo(pi,radio)   
         print(f'El area es  {uncirculo.area()}')
 
+    elif opcion == 8:
+        from figuras.poligono import Poligono
+        Lado = int(input("Ingresa el numero de lados de la figura:\n"))
+        aLongitud = int(input("Ingresa la longitud de sus lados:\n"))
+        Poligono = Poligono(Longitd,Lado)
+        Poligono.area()
+        Poligono.ImprimirInfo()
+
+    elif opcion ==9:
+        pi = float(input("Ingresa pi: "))
+        radio = float(input("Ingresa radio: "))
+        uncirculo = Circulo(pi,radio)
+        print(f'El area es  {uncirculo.area()}')
+  
     elif opcion == 10:
         base = int(input("\nIngresa la base: "))
         altura = int(input("Ingrese la altura: "))
@@ -50,6 +93,12 @@ while True:
             elif opcionRectangulo == "3":
                 print("Regresando al menu principal")
                 break
+    elif opcion == 11:
+        diagonalE=int(input("Ingresa el numero de la diagonal menor:\n"))
+        diagonalF=int(input("Ingrear el numero de la diagonal mayor:\n"))
+        papalote= Kite(diagonalE,diagonalF)
+        papalote.ImpInfo()
+        papalote.area()
 
     elif opcion ==14:
         from figuras.paralelogramo import Paralelogramo
@@ -58,27 +107,37 @@ while True:
         Paralelo = Paralelogramo(base,altura)
         Paralelo.area()
         Paralelo.ImprimirInfo()
-  
-    elif opcion==15:
-        from figuras.cuadrado import Cuadrado
-        lado = int(input("Ingrese lado: "))
-        c = Cuadrado(lado)
-        c.imprimirInfo()
-        c.area()
-        break
-
-    elif opcion == 17:
-        Bmayor = int(input("Ingrese medida de la Base Mayor: "))
-        Bmenor = int(input("Ingrese medida de la Base menor: "))
-        result = Trapezoide(Bmayor,Bmenor)
-        result.imprimirInfo()
-        result.area()
-
-
     elif opcion==2:
         pass
 
-    elif opcion==18:
+    elif opcion==16:
         break
 
-    
+    elif opcion==6:
+        pi = float(input("Ingresa el Pi: "))
+        radioCaudrado = int(input("Ingresa el Radio al Cuadrado:"))
+        numGrados = int(input("Ingresa el numero de grados:"))
+        misector = Sector(pi,radioCaudrado,numGrados)
+        misector.area()
+        misector.ImpInf()
+
+
+    elif opcion==18:
+        Lado1 = int(input("Ingrese la medida del lado 1"))
+        Lado2 = int(input("Ingrese la medida del lado 2"))
+        SumLd = int(input("Ingrese la suma de los lados del cubo"))
+        Cubo = Cubo(base,altura,SumLd)
+        Cubo.area()
+        Cubo.ImprimirInfo()
+        
+
+
+
+
+    elif opcion==13
+         pi = int(input("Ingrese pi "))
+         a = int(input("Ingrese medida de a "))
+         b = int(input("Ingrese medida de b "))
+         area = self.__pi * self.__b * self.__b
+         ellipse.area()
+         area.ImpInf()

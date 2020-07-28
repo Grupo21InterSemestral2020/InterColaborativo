@@ -24,11 +24,9 @@ class Rombo(object):
 
      def area(self):
          area = self.__dmayor * self.__dmenor /2
-         print(area)
+         print("Su area es: ")
 
-AreaRombo = Rombo(20,30)
-AreaRombo.area()
-AreaRombo.imprimirInfo()
+
 
 
 
