@@ -111,6 +111,7 @@ def funcion13():
     print("Grupo Musical: MS")
 
 def funcion14():
+    print("Andres Jared Vela Canizales")
     print("Signo Zodiacal: Cancer")
     print("Color favorito: Verde")
     print("Equipo: Rayados")
@@ -157,3 +158,7 @@ def main():
     person = Persona16("David Tamez",18,"Monterrey")
     person.imprimirInfo()
     person.obtenerEtapa()
+
+    persona14 = persona14("Andres Jared", 18, "Apodaca")
+    persona14.imprimirInf()
+    persona14.obtenerEtapa()
