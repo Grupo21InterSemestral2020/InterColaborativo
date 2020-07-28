@@ -27,3 +27,15 @@ class Persona14:
     @municipio.setter
     def municipio(self, valor):
         self.__municipio = valor
+
+    def etapa(self):
+        if self.__edad >= 0 and self.__edad <= 10:
+            print("Niño pequeño")
+        elif self.__edad >= 11 and self.__edad <= 17:
+            print("Adolescente") 
+        elif self.__edad >= 18 and self.__edad <= 40:
+            print("Adulto")
+        elif self.__edad > 40:
+            print("Adulto mayor")
+        else:
+            print("No aplica")
