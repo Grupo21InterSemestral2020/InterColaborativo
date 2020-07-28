@@ -130,3 +130,14 @@ while True:
         Cubo.area()
         Cubo.ImprimirInfo()
         
+
+
+
+
+    elif opcion==13
+         pi = int(input("Ingrese pi "))
+         a = int(input("Ingrese medida de a "))
+         b = int(input("Ingrese medida de b "))
+         area = self.__pi * self.__b * self.__b
+         ellipse.area()
+         area.ImpInf()
