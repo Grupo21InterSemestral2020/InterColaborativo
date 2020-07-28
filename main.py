@@ -123,7 +123,7 @@ def funcion15():
     print("Equipo: Tigres")
     print("Grupo musical: Intocable")
 
-    def funcion16():
+def funcion16():
     print("David Alfredo Gómez Tamez")
     print("Signo zodiacal: Cancer")
     print("Color favorito: Negro")
